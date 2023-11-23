@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "Ih0UUSS3gL0kxwmF1elzhT0RgvX7EzsXJE8kYBX9th/qC+YarXJSKXBWAMB+fV5yZWQ+hhv8d7egyeIqnRF1lw==",
+  "success": true,
+  "projectFilePath": "D:\\Freelance\\ERP\\ERP\\ERP.Core.ExtensionMethods\\ERP.Core.ExtensionMethods.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\TK\\.nuget\\packages\\autofac\\6.0.0\\autofac.6.0.0.nupkg.sha512",
+    "C:\\Users\\TK\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\TK\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}

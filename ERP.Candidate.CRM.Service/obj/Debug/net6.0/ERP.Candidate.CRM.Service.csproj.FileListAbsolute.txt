@@ -1,0 +1,12 @@
+D:\Freelance\ERP\ERP\ERP.Candidate.CRM.Service\bin\Debug\net6.0\ERP.Candidate.CRM.Service.deps.json
+D:\Freelance\ERP\ERP\ERP.Candidate.CRM.Service\bin\Debug\net6.0\ERP.Candidate.CRM.Service.dll
+D:\Freelance\ERP\ERP\ERP.Candidate.CRM.Service\bin\Debug\net6.0\ERP.Candidate.CRM.Service.pdb
+D:\Freelance\ERP\ERP\ERP.Candidate.CRM.Service\obj\Debug\net6.0\ERP.Candidate.CRM.Service.csproj.AssemblyReference.cache
+D:\Freelance\ERP\ERP\ERP.Candidate.CRM.Service\obj\Debug\net6.0\ERP.Candidate.CRM.Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\Freelance\ERP\ERP\ERP.Candidate.CRM.Service\obj\Debug\net6.0\ERP.Candidate.CRM.Service.AssemblyInfoInputs.cache
+D:\Freelance\ERP\ERP\ERP.Candidate.CRM.Service\obj\Debug\net6.0\ERP.Candidate.CRM.Service.AssemblyInfo.cs
+D:\Freelance\ERP\ERP\ERP.Candidate.CRM.Service\obj\Debug\net6.0\ERP.Candidate.CRM.Service.csproj.CoreCompileInputs.cache
+D:\Freelance\ERP\ERP\ERP.Candidate.CRM.Service\obj\Debug\net6.0\ERP.Candidate.CRM.Service.dll
+D:\Freelance\ERP\ERP\ERP.Candidate.CRM.Service\obj\Debug\net6.0\refint\ERP.Candidate.CRM.Service.dll
+D:\Freelance\ERP\ERP\ERP.Candidate.CRM.Service\obj\Debug\net6.0\ERP.Candidate.CRM.Service.pdb
+D:\Freelance\ERP\ERP\ERP.Candidate.CRM.Service\obj\Debug\net6.0\ref\ERP.Candidate.CRM.Service.dll

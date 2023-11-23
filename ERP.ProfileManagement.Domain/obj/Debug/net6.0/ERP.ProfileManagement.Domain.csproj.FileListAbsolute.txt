@@ -1,0 +1,11 @@
+D:\Freelance\ERP\ERP\ERP.ProfileManagement.Domain\bin\Debug\net6.0\ERP.ProfileManagement.Domain.deps.json
+D:\Freelance\ERP\ERP\ERP.ProfileManagement.Domain\bin\Debug\net6.0\ERP.ProfileManagement.Domain.dll
+D:\Freelance\ERP\ERP\ERP.ProfileManagement.Domain\bin\Debug\net6.0\ERP.ProfileManagement.Domain.pdb
+D:\Freelance\ERP\ERP\ERP.ProfileManagement.Domain\obj\Debug\net6.0\ERP.ProfileManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Freelance\ERP\ERP\ERP.ProfileManagement.Domain\obj\Debug\net6.0\ERP.ProfileManagement.Domain.AssemblyInfoInputs.cache
+D:\Freelance\ERP\ERP\ERP.ProfileManagement.Domain\obj\Debug\net6.0\ERP.ProfileManagement.Domain.AssemblyInfo.cs
+D:\Freelance\ERP\ERP\ERP.ProfileManagement.Domain\obj\Debug\net6.0\ERP.ProfileManagement.Domain.csproj.CoreCompileInputs.cache
+D:\Freelance\ERP\ERP\ERP.ProfileManagement.Domain\obj\Debug\net6.0\ERP.ProfileManagement.Domain.dll
+D:\Freelance\ERP\ERP\ERP.ProfileManagement.Domain\obj\Debug\net6.0\refint\ERP.ProfileManagement.Domain.dll
+D:\Freelance\ERP\ERP\ERP.ProfileManagement.Domain\obj\Debug\net6.0\ERP.ProfileManagement.Domain.pdb
+D:\Freelance\ERP\ERP\ERP.ProfileManagement.Domain\obj\Debug\net6.0\ref\ERP.ProfileManagement.Domain.dll

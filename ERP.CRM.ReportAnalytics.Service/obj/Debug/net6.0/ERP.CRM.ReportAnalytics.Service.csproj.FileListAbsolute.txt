@@ -1,0 +1,11 @@
+D:\Freelance\ERP\ERP\ERP.CRM.ReportAnalytics.Service\bin\Debug\net6.0\ERP.CRM.ReportAnalytics.Service.deps.json
+D:\Freelance\ERP\ERP\ERP.CRM.ReportAnalytics.Service\bin\Debug\net6.0\ERP.CRM.ReportAnalytics.Service.dll
+D:\Freelance\ERP\ERP\ERP.CRM.ReportAnalytics.Service\bin\Debug\net6.0\ERP.CRM.ReportAnalytics.Service.pdb
+D:\Freelance\ERP\ERP\ERP.CRM.ReportAnalytics.Service\obj\Debug\net6.0\ERP.CRM.ReportAnalytics.Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\Freelance\ERP\ERP\ERP.CRM.ReportAnalytics.Service\obj\Debug\net6.0\ERP.CRM.ReportAnalytics.Service.AssemblyInfoInputs.cache
+D:\Freelance\ERP\ERP\ERP.CRM.ReportAnalytics.Service\obj\Debug\net6.0\ERP.CRM.ReportAnalytics.Service.AssemblyInfo.cs
+D:\Freelance\ERP\ERP\ERP.CRM.ReportAnalytics.Service\obj\Debug\net6.0\ERP.CRM.ReportAnalytics.Service.csproj.CoreCompileInputs.cache
+D:\Freelance\ERP\ERP\ERP.CRM.ReportAnalytics.Service\obj\Debug\net6.0\ERP.CRM.ReportAnalytics.Service.dll
+D:\Freelance\ERP\ERP\ERP.CRM.ReportAnalytics.Service\obj\Debug\net6.0\refint\ERP.CRM.ReportAnalytics.Service.dll
+D:\Freelance\ERP\ERP\ERP.CRM.ReportAnalytics.Service\obj\Debug\net6.0\ERP.CRM.ReportAnalytics.Service.pdb
+D:\Freelance\ERP\ERP\ERP.CRM.ReportAnalytics.Service\obj\Debug\net6.0\ref\ERP.CRM.ReportAnalytics.Service.dll

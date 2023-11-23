@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ERP.Core.ServiceAccess\ERP.Core.ServiceAccess.csproj" />
+    <ProjectReference Include="..\ERP.HRAdminStaff.Domain\ERP.HRAdminStaff.Domain.csproj" />
+    <ProjectReference Include="..\Server\Repositories\ERP.HRAdminSttaf.Repository\ERP.HRAdminSttaf.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

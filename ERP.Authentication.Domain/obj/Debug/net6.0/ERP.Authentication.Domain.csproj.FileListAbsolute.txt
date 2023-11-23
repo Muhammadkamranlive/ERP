@@ -1,0 +1,14 @@
+D:\Freelance\ERP\ERP\ERP.Authentication.Domain\bin\Debug\net6.0\ERP.Authentication.Domain.deps.json
+D:\Freelance\ERP\ERP\ERP.Authentication.Domain\bin\Debug\net6.0\ERP.Authentication.Domain.runtimeconfig.json
+D:\Freelance\ERP\ERP\ERP.Authentication.Domain\bin\Debug\net6.0\ERP.Authentication.Domain.dll
+D:\Freelance\ERP\ERP\ERP.Authentication.Domain\bin\Debug\net6.0\ERP.Authentication.Domain.pdb
+D:\Freelance\ERP\ERP\ERP.Authentication.Domain\obj\Debug\net6.0\ERP.Authentication.Domain.csproj.AssemblyReference.cache
+D:\Freelance\ERP\ERP\ERP.Authentication.Domain\obj\Debug\net6.0\ERP.Authentication.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Freelance\ERP\ERP\ERP.Authentication.Domain\obj\Debug\net6.0\ERP.Authentication.Domain.AssemblyInfoInputs.cache
+D:\Freelance\ERP\ERP\ERP.Authentication.Domain\obj\Debug\net6.0\ERP.Authentication.Domain.AssemblyInfo.cs
+D:\Freelance\ERP\ERP\ERP.Authentication.Domain\obj\Debug\net6.0\ERP.Authentication.Domain.csproj.CoreCompileInputs.cache
+D:\Freelance\ERP\ERP\ERP.Authentication.Domain\obj\Debug\net6.0\ERP.Authentication.Domain.dll
+D:\Freelance\ERP\ERP\ERP.Authentication.Domain\obj\Debug\net6.0\refint\ERP.Authentication.Domain.dll
+D:\Freelance\ERP\ERP\ERP.Authentication.Domain\obj\Debug\net6.0\ERP.Authentication.Domain.pdb
+D:\Freelance\ERP\ERP\ERP.Authentication.Domain\obj\Debug\net6.0\ERP.Authentication.Domain.genruntimeconfig.cache
+D:\Freelance\ERP\ERP\ERP.Authentication.Domain\obj\Debug\net6.0\ref\ERP.Authentication.Domain.dll

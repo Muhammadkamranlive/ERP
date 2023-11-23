@@ -1,0 +1,12 @@
+D:\Freelance\ERP\ERP\ERP.Middlewares\bin\Debug\net6.0\ERP.Middlewares.deps.json
+D:\Freelance\ERP\ERP\ERP.Middlewares\bin\Debug\net6.0\ERP.Middlewares.dll
+D:\Freelance\ERP\ERP\ERP.Middlewares\bin\Debug\net6.0\ERP.Middlewares.pdb
+D:\Freelance\ERP\ERP\ERP.Middlewares\obj\Debug\net6.0\ERP.Middlewares.csproj.AssemblyReference.cache
+D:\Freelance\ERP\ERP\ERP.Middlewares\obj\Debug\net6.0\ERP.Middlewares.GeneratedMSBuildEditorConfig.editorconfig
+D:\Freelance\ERP\ERP\ERP.Middlewares\obj\Debug\net6.0\ERP.Middlewares.AssemblyInfoInputs.cache
+D:\Freelance\ERP\ERP\ERP.Middlewares\obj\Debug\net6.0\ERP.Middlewares.AssemblyInfo.cs
+D:\Freelance\ERP\ERP\ERP.Middlewares\obj\Debug\net6.0\ERP.Middlewares.csproj.CoreCompileInputs.cache
+D:\Freelance\ERP\ERP\ERP.Middlewares\obj\Debug\net6.0\ERP.Middlewares.dll
+D:\Freelance\ERP\ERP\ERP.Middlewares\obj\Debug\net6.0\refint\ERP.Middlewares.dll
+D:\Freelance\ERP\ERP\ERP.Middlewares\obj\Debug\net6.0\ERP.Middlewares.pdb
+D:\Freelance\ERP\ERP\ERP.Middlewares\obj\Debug\net6.0\ref\ERP.Middlewares.dll

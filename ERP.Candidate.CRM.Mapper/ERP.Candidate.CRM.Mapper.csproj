@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="7.2.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+    <PackageReference Include="MailKit" Version="4.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.19" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.OpenIdConnect" Version="6.0.14" />
+    <PackageReference Include="Microsoft.AspNetCore.Authorization" Version="7.0.8" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ERP.CaseManagement.Domain\ERP.CaseManagement.Domain.csproj" />
+    <ProjectReference Include="..\ERP.ContactManagement.Model\ERP.ContactManagement.Model.csproj" />
+    <ProjectReference Include="..\ERP.ContanctManagement.Domain\ERP.ContanctManagement.Domain.csproj" />
+    <ProjectReference Include="..\ERP.CustomerCare.Model\ERP.CustomerCare.Model.csproj" />
+    <ProjectReference Include="..\ERP.DocumentManagement.Domain\ERP.DocumentManagement.Domain.csproj" />
+    <ProjectReference Include="..\ERP.DocumentManagement.Model\ERP.DocumentManagement.Model.csproj" />
+    <ProjectReference Include="..\ERP.HRAdminStaff.Domain\ERP.HRAdminStaff.Domain.csproj" />
+    <ProjectReference Include="..\ERP.HRAdminStaff.Model\ERP.HRAdminStaff.Model.csproj" />
+    <ProjectReference Include="..\ERP.Notifications.Domain\ERP.Notifications.Domain.csproj" />
+    <ProjectReference Include="..\ERP.Notifications.Model\ERP.Notifications.Model.csproj" />
+    <ProjectReference Include="..\ERP.ProfileManagement.Domain\ERP.ProfileManagement.Domain.csproj" />
+    <ProjectReference Include="..\ERP.ProfileManagement.Model\ERP.ProfileManagement.Model.csproj" />
+    <ProjectReference Include="..\ERP.TaskManagement.Domain\ERP.TaskManagement.Domain.csproj" />
+    <ProjectReference Include="..\ERP.TaskManagement.Model\ERP.TaskManagement.Model.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ERP.Authentication.Domain\ERP.Authentication.Domain.csproj" />
+    <ProjectReference Include="..\ERP.CaseManagement.Domain\ERP.CaseManagement.Domain.csproj" />
+    <ProjectReference Include="..\ERP.ContanctManagement.Domain\ERP.ContanctManagement.Domain.csproj" />
+    <ProjectReference Include="..\ERP.DocumentManagement.Domain\ERP.DocumentManagement.Domain.csproj" />
+    <ProjectReference Include="..\ERP.HRAdminStaff.Domain\ERP.HRAdminStaff.Domain.csproj" />
+    <ProjectReference Include="..\ERP.Notifications.Domain\ERP.Notifications.Domain.csproj" />
+    <ProjectReference Include="..\ERP.ProfileManagement.Domain\ERP.ProfileManagement.Domain.csproj" />
+    <ProjectReference Include="..\ERP.TaskManagement.Domain\ERP.TaskManagement.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

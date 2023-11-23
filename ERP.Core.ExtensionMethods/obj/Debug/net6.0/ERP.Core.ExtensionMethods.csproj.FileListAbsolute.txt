@@ -1,0 +1,12 @@
+D:\Freelance\ERP\ERP\ERP.Core.ExtensionMethods\bin\Debug\net6.0\ERP.Core.ExtensionMethods.deps.json
+D:\Freelance\ERP\ERP\ERP.Core.ExtensionMethods\bin\Debug\net6.0\ERP.Core.ExtensionMethods.dll
+D:\Freelance\ERP\ERP\ERP.Core.ExtensionMethods\bin\Debug\net6.0\ERP.Core.ExtensionMethods.pdb
+D:\Freelance\ERP\ERP\ERP.Core.ExtensionMethods\obj\Debug\net6.0\ERP.Core.ExtensionMethods.csproj.AssemblyReference.cache
+D:\Freelance\ERP\ERP\ERP.Core.ExtensionMethods\obj\Debug\net6.0\ERP.Core.ExtensionMethods.GeneratedMSBuildEditorConfig.editorconfig
+D:\Freelance\ERP\ERP\ERP.Core.ExtensionMethods\obj\Debug\net6.0\ERP.Core.ExtensionMethods.AssemblyInfoInputs.cache
+D:\Freelance\ERP\ERP\ERP.Core.ExtensionMethods\obj\Debug\net6.0\ERP.Core.ExtensionMethods.AssemblyInfo.cs
+D:\Freelance\ERP\ERP\ERP.Core.ExtensionMethods\obj\Debug\net6.0\ERP.Core.ExtensionMethods.csproj.CoreCompileInputs.cache
+D:\Freelance\ERP\ERP\ERP.Core.ExtensionMethods\obj\Debug\net6.0\ERP.Core.ExtensionMethods.dll
+D:\Freelance\ERP\ERP\ERP.Core.ExtensionMethods\obj\Debug\net6.0\refint\ERP.Core.ExtensionMethods.dll
+D:\Freelance\ERP\ERP\ERP.Core.ExtensionMethods\obj\Debug\net6.0\ERP.Core.ExtensionMethods.pdb
+D:\Freelance\ERP\ERP\ERP.Core.ExtensionMethods\obj\Debug\net6.0\ref\ERP.Core.ExtensionMethods.dll

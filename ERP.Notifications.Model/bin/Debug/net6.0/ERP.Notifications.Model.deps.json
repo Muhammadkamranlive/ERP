@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ERP.Notifications.Model/1.0.0": {
+        "runtime": {
+          "ERP.Notifications.Model.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ERP.Notifications.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

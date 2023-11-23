@@ -1,0 +1,15 @@
+D:\Freelance\ERP\ERP\ERP.ContanctManagement.Domain\bin\Debug\net6.0\ERP.ContanctManagement.Domain.deps.json
+D:\Freelance\ERP\ERP\ERP.ContanctManagement.Domain\bin\Debug\net6.0\ERP.ContanctManagement.Domain.dll
+D:\Freelance\ERP\ERP\ERP.ContanctManagement.Domain\bin\Debug\net6.0\ERP.ContanctManagement.Domain.pdb
+D:\Freelance\ERP\ERP\ERP.ContanctManagement.Domain\bin\Debug\net6.0\ERP.Authentication.Domain.dll
+D:\Freelance\ERP\ERP\ERP.ContanctManagement.Domain\bin\Debug\net6.0\ERP.Authentication.Domain.pdb
+D:\Freelance\ERP\ERP\ERP.ContanctManagement.Domain\obj\Debug\net6.0\ERP.ContanctManagement.Domain.csproj.AssemblyReference.cache
+D:\Freelance\ERP\ERP\ERP.ContanctManagement.Domain\obj\Debug\net6.0\ERP.ContanctManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Freelance\ERP\ERP\ERP.ContanctManagement.Domain\obj\Debug\net6.0\ERP.ContanctManagement.Domain.AssemblyInfoInputs.cache
+D:\Freelance\ERP\ERP\ERP.ContanctManagement.Domain\obj\Debug\net6.0\ERP.ContanctManagement.Domain.AssemblyInfo.cs
+D:\Freelance\ERP\ERP\ERP.ContanctManagement.Domain\obj\Debug\net6.0\ERP.ContanctManagement.Domain.csproj.CoreCompileInputs.cache
+D:\Freelance\ERP\ERP\ERP.ContanctManagement.Domain\obj\Debug\net6.0\ERP.ContanctManagement.Domain.csproj.CopyComplete
+D:\Freelance\ERP\ERP\ERP.ContanctManagement.Domain\obj\Debug\net6.0\ERP.ContanctManagement.Domain.dll
+D:\Freelance\ERP\ERP\ERP.ContanctManagement.Domain\obj\Debug\net6.0\refint\ERP.ContanctManagement.Domain.dll
+D:\Freelance\ERP\ERP\ERP.ContanctManagement.Domain\obj\Debug\net6.0\ERP.ContanctManagement.Domain.pdb
+D:\Freelance\ERP\ERP\ERP.ContanctManagement.Domain\obj\Debug\net6.0\ref\ERP.ContanctManagement.Domain.dll

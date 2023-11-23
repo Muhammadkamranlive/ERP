@@ -1,0 +1,11 @@
+D:\Freelance\ERP\ERP\ERP.CustomerCare.Model\bin\Debug\net6.0\ERP.CustomerCare.Model.deps.json
+D:\Freelance\ERP\ERP\ERP.CustomerCare.Model\bin\Debug\net6.0\ERP.CustomerCare.Model.dll
+D:\Freelance\ERP\ERP\ERP.CustomerCare.Model\bin\Debug\net6.0\ERP.CustomerCare.Model.pdb
+D:\Freelance\ERP\ERP\ERP.CustomerCare.Model\obj\Debug\net6.0\ERP.CustomerCare.Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\Freelance\ERP\ERP\ERP.CustomerCare.Model\obj\Debug\net6.0\ERP.CustomerCare.Model.AssemblyInfoInputs.cache
+D:\Freelance\ERP\ERP\ERP.CustomerCare.Model\obj\Debug\net6.0\ERP.CustomerCare.Model.AssemblyInfo.cs
+D:\Freelance\ERP\ERP\ERP.CustomerCare.Model\obj\Debug\net6.0\ERP.CustomerCare.Model.csproj.CoreCompileInputs.cache
+D:\Freelance\ERP\ERP\ERP.CustomerCare.Model\obj\Debug\net6.0\ERP.CustomerCare.Model.dll
+D:\Freelance\ERP\ERP\ERP.CustomerCare.Model\obj\Debug\net6.0\refint\ERP.CustomerCare.Model.dll
+D:\Freelance\ERP\ERP\ERP.CustomerCare.Model\obj\Debug\net6.0\ERP.CustomerCare.Model.pdb
+D:\Freelance\ERP\ERP\ERP.CustomerCare.Model\obj\Debug\net6.0\ref\ERP.CustomerCare.Model.dll

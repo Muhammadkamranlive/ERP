@@ -1,0 +1,11 @@
+D:\Freelance\ERP\ERP\ERP.CRM.Messenger.Service\bin\Debug\net6.0\ERP.CRM.Messenger.Service.deps.json
+D:\Freelance\ERP\ERP\ERP.CRM.Messenger.Service\bin\Debug\net6.0\ERP.CRM.Messenger.Service.dll
+D:\Freelance\ERP\ERP\ERP.CRM.Messenger.Service\bin\Debug\net6.0\ERP.CRM.Messenger.Service.pdb
+D:\Freelance\ERP\ERP\ERP.CRM.Messenger.Service\obj\Debug\net6.0\ERP.CRM.Messenger.Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\Freelance\ERP\ERP\ERP.CRM.Messenger.Service\obj\Debug\net6.0\ERP.CRM.Messenger.Service.AssemblyInfoInputs.cache
+D:\Freelance\ERP\ERP\ERP.CRM.Messenger.Service\obj\Debug\net6.0\ERP.CRM.Messenger.Service.AssemblyInfo.cs
+D:\Freelance\ERP\ERP\ERP.CRM.Messenger.Service\obj\Debug\net6.0\ERP.CRM.Messenger.Service.csproj.CoreCompileInputs.cache
+D:\Freelance\ERP\ERP\ERP.CRM.Messenger.Service\obj\Debug\net6.0\ERP.CRM.Messenger.Service.dll
+D:\Freelance\ERP\ERP\ERP.CRM.Messenger.Service\obj\Debug\net6.0\refint\ERP.CRM.Messenger.Service.dll
+D:\Freelance\ERP\ERP\ERP.CRM.Messenger.Service\obj\Debug\net6.0\ERP.CRM.Messenger.Service.pdb
+D:\Freelance\ERP\ERP\ERP.CRM.Messenger.Service\obj\Debug\net6.0\ref\ERP.CRM.Messenger.Service.dll

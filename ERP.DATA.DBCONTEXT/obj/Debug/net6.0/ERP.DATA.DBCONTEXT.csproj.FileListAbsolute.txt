@@ -1,0 +1,17 @@
+D:\Freelance\ERP\ERP\ERP.DATA.DBCONTEXT\bin\Debug\net6.0\ERP.DATA.DBCONTEXT.deps.json
+D:\Freelance\ERP\ERP\ERP.DATA.DBCONTEXT\bin\Debug\net6.0\ERP.DATA.DBCONTEXT.runtimeconfig.json
+D:\Freelance\ERP\ERP\ERP.DATA.DBCONTEXT\bin\Debug\net6.0\ERP.DATA.DBCONTEXT.dll
+D:\Freelance\ERP\ERP\ERP.DATA.DBCONTEXT\bin\Debug\net6.0\ERP.DATA.DBCONTEXT.pdb
+D:\Freelance\ERP\ERP\ERP.DATA.DBCONTEXT\bin\Debug\net6.0\ERP.Authentication.Domain.dll
+D:\Freelance\ERP\ERP\ERP.DATA.DBCONTEXT\bin\Debug\net6.0\ERP.Authentication.Domain.pdb
+D:\Freelance\ERP\ERP\ERP.DATA.DBCONTEXT\obj\Debug\net6.0\ERP.DATA.DBCONTEXT.csproj.AssemblyReference.cache
+D:\Freelance\ERP\ERP\ERP.DATA.DBCONTEXT\obj\Debug\net6.0\ERP.DATA.DBCONTEXT.GeneratedMSBuildEditorConfig.editorconfig
+D:\Freelance\ERP\ERP\ERP.DATA.DBCONTEXT\obj\Debug\net6.0\ERP.DATA.DBCONTEXT.AssemblyInfoInputs.cache
+D:\Freelance\ERP\ERP\ERP.DATA.DBCONTEXT\obj\Debug\net6.0\ERP.DATA.DBCONTEXT.AssemblyInfo.cs
+D:\Freelance\ERP\ERP\ERP.DATA.DBCONTEXT\obj\Debug\net6.0\ERP.DATA.DBCONTEXT.csproj.CoreCompileInputs.cache
+D:\Freelance\ERP\ERP\ERP.DATA.DBCONTEXT\obj\Debug\net6.0\ERP.DATA.DBCONTEXT.csproj.CopyComplete
+D:\Freelance\ERP\ERP\ERP.DATA.DBCONTEXT\obj\Debug\net6.0\ERP.DATA.DBCONTEXT.dll
+D:\Freelance\ERP\ERP\ERP.DATA.DBCONTEXT\obj\Debug\net6.0\refint\ERP.DATA.DBCONTEXT.dll
+D:\Freelance\ERP\ERP\ERP.DATA.DBCONTEXT\obj\Debug\net6.0\ERP.DATA.DBCONTEXT.pdb
+D:\Freelance\ERP\ERP\ERP.DATA.DBCONTEXT\obj\Debug\net6.0\ERP.DATA.DBCONTEXT.genruntimeconfig.cache
+D:\Freelance\ERP\ERP\ERP.DATA.DBCONTEXT\obj\Debug\net6.0\ref\ERP.DATA.DBCONTEXT.dll

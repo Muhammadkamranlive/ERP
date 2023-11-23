@@ -1,0 +1,11 @@
+D:\Freelance\ERP\ERP\ERP.CRM.WorkFlow.Service\bin\Debug\net6.0\ERP.CRM.WorkFlow.Service.deps.json
+D:\Freelance\ERP\ERP\ERP.CRM.WorkFlow.Service\bin\Debug\net6.0\ERP.CRM.WorkFlow.Service.dll
+D:\Freelance\ERP\ERP\ERP.CRM.WorkFlow.Service\bin\Debug\net6.0\ERP.CRM.WorkFlow.Service.pdb
+D:\Freelance\ERP\ERP\ERP.CRM.WorkFlow.Service\obj\Debug\net6.0\ERP.CRM.WorkFlow.Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\Freelance\ERP\ERP\ERP.CRM.WorkFlow.Service\obj\Debug\net6.0\ERP.CRM.WorkFlow.Service.AssemblyInfoInputs.cache
+D:\Freelance\ERP\ERP\ERP.CRM.WorkFlow.Service\obj\Debug\net6.0\ERP.CRM.WorkFlow.Service.AssemblyInfo.cs
+D:\Freelance\ERP\ERP\ERP.CRM.WorkFlow.Service\obj\Debug\net6.0\ERP.CRM.WorkFlow.Service.csproj.CoreCompileInputs.cache
+D:\Freelance\ERP\ERP\ERP.CRM.WorkFlow.Service\obj\Debug\net6.0\ERP.CRM.WorkFlow.Service.dll
+D:\Freelance\ERP\ERP\ERP.CRM.WorkFlow.Service\obj\Debug\net6.0\refint\ERP.CRM.WorkFlow.Service.dll
+D:\Freelance\ERP\ERP\ERP.CRM.WorkFlow.Service\obj\Debug\net6.0\ERP.CRM.WorkFlow.Service.pdb
+D:\Freelance\ERP\ERP\ERP.CRM.WorkFlow.Service\obj\Debug\net6.0\ref\ERP.CRM.WorkFlow.Service.dll

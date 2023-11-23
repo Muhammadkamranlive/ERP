@@ -1,0 +1,11 @@
+D:\Freelance\ERP\ERP\ERP.Notifications.Domain\bin\Debug\net6.0\ERP.Notifications.Domain.deps.json
+D:\Freelance\ERP\ERP\ERP.Notifications.Domain\bin\Debug\net6.0\ERP.Notifications.Domain.dll
+D:\Freelance\ERP\ERP\ERP.Notifications.Domain\bin\Debug\net6.0\ERP.Notifications.Domain.pdb
+D:\Freelance\ERP\ERP\ERP.Notifications.Domain\obj\Debug\net6.0\ERP.Notifications.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Freelance\ERP\ERP\ERP.Notifications.Domain\obj\Debug\net6.0\ERP.Notifications.Domain.AssemblyInfoInputs.cache
+D:\Freelance\ERP\ERP\ERP.Notifications.Domain\obj\Debug\net6.0\ERP.Notifications.Domain.AssemblyInfo.cs
+D:\Freelance\ERP\ERP\ERP.Notifications.Domain\obj\Debug\net6.0\ERP.Notifications.Domain.csproj.CoreCompileInputs.cache
+D:\Freelance\ERP\ERP\ERP.Notifications.Domain\obj\Debug\net6.0\ERP.Notifications.Domain.dll
+D:\Freelance\ERP\ERP\ERP.Notifications.Domain\obj\Debug\net6.0\refint\ERP.Notifications.Domain.dll
+D:\Freelance\ERP\ERP\ERP.Notifications.Domain\obj\Debug\net6.0\ERP.Notifications.Domain.pdb
+D:\Freelance\ERP\ERP\ERP.Notifications.Domain\obj\Debug\net6.0\ref\ERP.Notifications.Domain.dll

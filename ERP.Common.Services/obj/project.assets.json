@@ -1288,6 +1288,21 @@
           "bin/placeholder/ERP.Core.ServiceAccess.dll": {}
         }
       },
+      "ERP.CRM.TaskManagement.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ERP.Core.ServiceAccess": "1.0.0",
+          "ERP.TaskManagement.Domain": "1.0.0",
+          "ERP.TaskManagement.Repository": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ERP.CRM.TaskManagement.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ERP.CRM.TaskManagement.Service.dll": {}
+        }
+      },
       "ERP.CustomerCare.Repository/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -1376,6 +1391,21 @@
           "bin/placeholder/ERP.HRAdminSttaf.Repository.dll": {}
         }
       },
+      "ERP.Notification.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ERP.Core.ServiceAccess": "1.0.0",
+          "ERP.Notifications.Domain": "1.0.0",
+          "ERP.Notifications.Repository": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ERP.Notification.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ERP.Notification.Service.dll": {}
+        }
+      },
       "ERP.Notifications.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -1435,6 +1465,16 @@
         },
         "runtime": {
           "bin/placeholder/ERP.TaskManagement.Domain.dll": {}
+        }
+      },
+      "ERP.TaskManagement.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/ERP.TaskManagement.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ERP.TaskManagement.Model.dll": {}
         }
       },
       "ERP.TaskManagement.Repository/1.0.0": {
@@ -3425,6 +3465,11 @@
       "path": "../ERP.Core.ServiceAccess/ERP.Core.ServiceAccess.csproj",
       "msbuildProject": "../ERP.Core.ServiceAccess/ERP.Core.ServiceAccess.csproj"
     },
+    "ERP.CRM.TaskManagement.Service/1.0.0": {
+      "type": "project",
+      "path": "../ERP.CRM.TaskManagement.Service/ERP.CRM.TaskManagement.Service.csproj",
+      "msbuildProject": "../ERP.CRM.TaskManagement.Service/ERP.CRM.TaskManagement.Service.csproj"
+    },
     "ERP.CustomerCare.Repository/1.0.0": {
       "type": "project",
       "path": "../Server/Repositories/ERP.CustomerCare.Repository/ERP.CustomerCare.Repository.csproj",
@@ -3455,6 +3500,11 @@
       "path": "../Server/Repositories/ERP.HRAdminSttaf.Repository/ERP.HRAdminSttaf.Repository.csproj",
       "msbuildProject": "../Server/Repositories/ERP.HRAdminSttaf.Repository/ERP.HRAdminSttaf.Repository.csproj"
     },
+    "ERP.Notification.Service/1.0.0": {
+      "type": "project",
+      "path": "../ERP.Notification.Service/ERP.Notification.Service.csproj",
+      "msbuildProject": "../ERP.Notification.Service/ERP.Notification.Service.csproj"
+    },
     "ERP.Notifications.Domain/1.0.0": {
       "type": "project",
       "path": "../ERP.Notifications.Domain/ERP.Notifications.Domain.csproj",
@@ -3480,6 +3530,11 @@
       "path": "../ERP.TaskManagement.Domain/ERP.TaskManagement.Domain.csproj",
       "msbuildProject": "../ERP.TaskManagement.Domain/ERP.TaskManagement.Domain.csproj"
     },
+    "ERP.TaskManagement.Model/1.0.0": {
+      "type": "project",
+      "path": "../ERP.TaskManagement.Model/ERP.TaskManagement.Model.csproj",
+      "msbuildProject": "../ERP.TaskManagement.Model/ERP.TaskManagement.Model.csproj"
+    },
     "ERP.TaskManagement.Repository/1.0.0": {
       "type": "project",
       "path": "../ERP.TaskManagement.Repository/ERP.TaskManagement.Repository.csproj",
@@ -3493,8 +3548,11 @@
       "CRM.Authentication.Model >= 1.0.0",
       "CRM.Authentication.Repository >= 1.0.0",
       "ERP.Authentication.Domain >= 1.0.0",
+      "ERP.CRM.TaskManagement.Service >= 1.0.0",
       "ERP.Core.DataAccess >= 1.0.0",
       "ERP.Core.ServiceAccess >= 1.0.0",
+      "ERP.Notification.Service >= 1.0.0",
+      "ERP.TaskManagement.Model >= 1.0.0",
       "MailKit >= 4.2.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 6.0.19",
       "Microsoft.AspNetCore.Authentication.OpenIdConnect >= 6.0.14",
@@ -3542,6 +3600,15 @@
             },
             "D:\\Freelance\\ERP\\ERP\\ERP.Core.ServiceAccess\\ERP.Core.ServiceAccess.csproj": {
               "projectPath": "D:\\Freelance\\ERP\\ERP\\ERP.Core.ServiceAccess\\ERP.Core.ServiceAccess.csproj"
+            },
+            "D:\\Freelance\\ERP\\ERP\\ERP.CRM.TaskManagement.Service\\ERP.CRM.TaskManagement.Service.csproj": {
+              "projectPath": "D:\\Freelance\\ERP\\ERP\\ERP.CRM.TaskManagement.Service\\ERP.CRM.TaskManagement.Service.csproj"
+            },
+            "D:\\Freelance\\ERP\\ERP\\ERP.Notification.Service\\ERP.Notification.Service.csproj": {
+              "projectPath": "D:\\Freelance\\ERP\\ERP\\ERP.Notification.Service\\ERP.Notification.Service.csproj"
+            },
+            "D:\\Freelance\\ERP\\ERP\\ERP.TaskManagement.Model\\ERP.TaskManagement.Model.csproj": {
+              "projectPath": "D:\\Freelance\\ERP\\ERP\\ERP.TaskManagement.Model\\ERP.TaskManagement.Model.csproj"
             }
           }
         }

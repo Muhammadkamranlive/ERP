@@ -24,5 +24,7 @@ namespace CandidateCRM.API.ContactManagment
             _Service     = service;
             _authManager = authManager;
         }
+
+
     }
 }

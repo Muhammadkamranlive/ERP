@@ -1,0 +1,12 @@
+D:\Freelance\ERP\ERP\ERP.DocumentManagement.Model\bin\Release\net6.0\ERP.DocumentManagement.Model.deps.json
+D:\Freelance\ERP\ERP\ERP.DocumentManagement.Model\bin\Release\net6.0\ERP.DocumentManagement.Model.dll
+D:\Freelance\ERP\ERP\ERP.DocumentManagement.Model\bin\Release\net6.0\ERP.DocumentManagement.Model.pdb
+D:\Freelance\ERP\ERP\ERP.DocumentManagement.Model\obj\Release\net6.0\ERP.DocumentManagement.Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\Freelance\ERP\ERP\ERP.DocumentManagement.Model\obj\Release\net6.0\ERP.DocumentManagement.Model.AssemblyInfoInputs.cache
+D:\Freelance\ERP\ERP\ERP.DocumentManagement.Model\obj\Release\net6.0\ERP.DocumentManagement.Model.AssemblyInfo.cs
+D:\Freelance\ERP\ERP\ERP.DocumentManagement.Model\obj\Release\net6.0\ERP.DocumentManagement.Model.csproj.CoreCompileInputs.cache
+D:\Freelance\ERP\ERP\ERP.DocumentManagement.Model\obj\Release\net6.0\ERP.DocumentManagement.Model.sourcelink.json
+D:\Freelance\ERP\ERP\ERP.DocumentManagement.Model\obj\Release\net6.0\ERP.DocumentManagement.Model.dll
+D:\Freelance\ERP\ERP\ERP.DocumentManagement.Model\obj\Release\net6.0\refint\ERP.DocumentManagement.Model.dll
+D:\Freelance\ERP\ERP\ERP.DocumentManagement.Model\obj\Release\net6.0\ERP.DocumentManagement.Model.pdb
+D:\Freelance\ERP\ERP\ERP.DocumentManagement.Model\obj\Release\net6.0\ref\ERP.DocumentManagement.Model.dll

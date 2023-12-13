@@ -51,3 +51,4 @@ D:\Freelance\ERP\ERP\ERP.HRAdmin.Service\obj\Debug\net6.0\ERP.HRAdmin.Service.dl
 D:\Freelance\ERP\ERP\ERP.HRAdmin.Service\obj\Debug\net6.0\refint\ERP.HRAdmin.Service.dll
 D:\Freelance\ERP\ERP\ERP.HRAdmin.Service\obj\Debug\net6.0\ERP.HRAdmin.Service.pdb
 D:\Freelance\ERP\ERP\ERP.HRAdmin.Service\obj\Debug\net6.0\ref\ERP.HRAdmin.Service.dll
+D:\Freelance\ERP\ERP\ERP.HRAdmin.Service\obj\Debug\net6.0\ERP.HRAdmin.Service.sourcelink.json

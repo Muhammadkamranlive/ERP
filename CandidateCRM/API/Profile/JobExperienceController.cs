@@ -12,11 +12,11 @@ namespace CandidateCRM.API.Profile
     [ApiController]
     public class JobExperienceController : ParentController<JobExperience, JobExperienceModel>
     {
-        private readonly JobExperience_Service    _Service;
+        private readonly IJobExperience_Service    _Service;
         private readonly IAuthManager            _authManager;
         public JobExperienceController
         (
-            JobExperience_Service service,
+            IJobExperience_Service service,
             IMapper mapper,
             IAuthManager authManager
         ) : base(service, mapper)

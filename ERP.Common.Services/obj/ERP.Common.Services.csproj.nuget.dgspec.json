@@ -317,6 +317,15 @@
               },
               "D:\\Freelance\\ERP\\ERP\\ERP.Core.ServiceAccess\\ERP.Core.ServiceAccess.csproj": {
                 "projectPath": "D:\\Freelance\\ERP\\ERP\\ERP.Core.ServiceAccess\\ERP.Core.ServiceAccess.csproj"
+              },
+              "D:\\Freelance\\ERP\\ERP\\ERP.CRM.TaskManagement.Service\\ERP.CRM.TaskManagement.Service.csproj": {
+                "projectPath": "D:\\Freelance\\ERP\\ERP\\ERP.CRM.TaskManagement.Service\\ERP.CRM.TaskManagement.Service.csproj"
+              },
+              "D:\\Freelance\\ERP\\ERP\\ERP.Notification.Service\\ERP.Notification.Service.csproj": {
+                "projectPath": "D:\\Freelance\\ERP\\ERP\\ERP.Notification.Service\\ERP.Notification.Service.csproj"
+              },
+              "D:\\Freelance\\ERP\\ERP\\ERP.TaskManagement.Model\\ERP.TaskManagement.Model.csproj": {
+                "projectPath": "D:\\Freelance\\ERP\\ERP\\ERP.TaskManagement.Model\\ERP.TaskManagement.Model.csproj"
               }
             }
           }
@@ -750,6 +759,71 @@
         }
       }
     },
+    "D:\\Freelance\\ERP\\ERP\\ERP.CRM.TaskManagement.Service\\ERP.CRM.TaskManagement.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Freelance\\ERP\\ERP\\ERP.CRM.TaskManagement.Service\\ERP.CRM.TaskManagement.Service.csproj",
+        "projectName": "ERP.CRM.TaskManagement.Service",
+        "projectPath": "D:\\Freelance\\ERP\\ERP\\ERP.CRM.TaskManagement.Service\\ERP.CRM.TaskManagement.Service.csproj",
+        "packagesPath": "C:\\Users\\TK\\.nuget\\packages\\",
+        "outputPath": "D:\\Freelance\\ERP\\ERP\\ERP.CRM.TaskManagement.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\TK\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Freelance\\ERP\\ERP\\ERP.Core.ServiceAccess\\ERP.Core.ServiceAccess.csproj": {
+                "projectPath": "D:\\Freelance\\ERP\\ERP\\ERP.Core.ServiceAccess\\ERP.Core.ServiceAccess.csproj"
+              },
+              "D:\\Freelance\\ERP\\ERP\\ERP.TaskManagement.Domain\\ERP.TaskManagement.Domain.csproj": {
+                "projectPath": "D:\\Freelance\\ERP\\ERP\\ERP.TaskManagement.Domain\\ERP.TaskManagement.Domain.csproj"
+              },
+              "D:\\Freelance\\ERP\\ERP\\ERP.TaskManagement.Repository\\ERP.TaskManagement.Repository.csproj": {
+                "projectPath": "D:\\Freelance\\ERP\\ERP\\ERP.TaskManagement.Repository\\ERP.TaskManagement.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "D:\\Freelance\\ERP\\ERP\\ERP.DataBase\\ERP.DataBase.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -915,6 +989,71 @@
             "projectReferences": {
               "D:\\Freelance\\ERP\\ERP\\ERP.Authentication.Domain\\ERP.Authentication.Domain.csproj": {
                 "projectPath": "D:\\Freelance\\ERP\\ERP\\ERP.Authentication.Domain\\ERP.Authentication.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Freelance\\ERP\\ERP\\ERP.Notification.Service\\ERP.Notification.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Freelance\\ERP\\ERP\\ERP.Notification.Service\\ERP.Notification.Service.csproj",
+        "projectName": "ERP.Notification.Service",
+        "projectPath": "D:\\Freelance\\ERP\\ERP\\ERP.Notification.Service\\ERP.Notification.Service.csproj",
+        "packagesPath": "C:\\Users\\TK\\.nuget\\packages\\",
+        "outputPath": "D:\\Freelance\\ERP\\ERP\\ERP.Notification.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\TK\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Freelance\\ERP\\ERP\\ERP.Core.ServiceAccess\\ERP.Core.ServiceAccess.csproj": {
+                "projectPath": "D:\\Freelance\\ERP\\ERP\\ERP.Core.ServiceAccess\\ERP.Core.ServiceAccess.csproj"
+              },
+              "D:\\Freelance\\ERP\\ERP\\ERP.Notifications.Domain\\ERP.Notifications.Domain.csproj": {
+                "projectPath": "D:\\Freelance\\ERP\\ERP\\ERP.Notifications.Domain\\ERP.Notifications.Domain.csproj"
+              },
+              "D:\\Freelance\\ERP\\ERP\\Server\\Repositories\\ERP.Notifications.Repository\\ERP.Notifications.Repository.csproj": {
+                "projectPath": "D:\\Freelance\\ERP\\ERP\\Server\\Repositories\\ERP.Notifications.Repository\\ERP.Notifications.Repository.csproj"
               }
             }
           }
@@ -1148,6 +1287,61 @@
                 "projectPath": "D:\\Freelance\\ERP\\ERP\\ERP.Authentication.Domain\\ERP.Authentication.Domain.csproj"
               }
             }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Freelance\\ERP\\ERP\\ERP.TaskManagement.Model\\ERP.TaskManagement.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Freelance\\ERP\\ERP\\ERP.TaskManagement.Model\\ERP.TaskManagement.Model.csproj",
+        "projectName": "ERP.TaskManagement.Model",
+        "projectPath": "D:\\Freelance\\ERP\\ERP\\ERP.TaskManagement.Model\\ERP.TaskManagement.Model.csproj",
+        "packagesPath": "C:\\Users\\TK\\.nuget\\packages\\",
+        "outputPath": "D:\\Freelance\\ERP\\ERP\\ERP.TaskManagement.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\TK\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
           }
         },
         "warningProperties": {

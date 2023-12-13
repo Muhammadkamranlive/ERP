@@ -9,3 +9,4 @@ D:\Freelance\ERP\ERP\ERP.ProfileManagement.Model\obj\Debug\net6.0\ERP.ProfileMan
 D:\Freelance\ERP\ERP\ERP.ProfileManagement.Model\obj\Debug\net6.0\refint\ERP.ProfileManagement.Model.dll
 D:\Freelance\ERP\ERP\ERP.ProfileManagement.Model\obj\Debug\net6.0\ERP.ProfileManagement.Model.pdb
 D:\Freelance\ERP\ERP\ERP.ProfileManagement.Model\obj\Debug\net6.0\ref\ERP.ProfileManagement.Model.dll
+D:\Freelance\ERP\ERP\ERP.ProfileManagement.Model\obj\Debug\net6.0\ERP.ProfileManagement.Model.sourcelink.json

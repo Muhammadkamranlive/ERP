@@ -27,3 +27,4 @@ D:\Freelance\ERP\ERP\ERP.DataBase\bin\Debug\net6.0\ERP.HRAdminStaff.Domain.pdb
 D:\Freelance\ERP\ERP\ERP.DataBase\bin\Debug\net6.0\ERP.Notifications.Domain.pdb
 D:\Freelance\ERP\ERP\ERP.DataBase\bin\Debug\net6.0\ERP.ProfileManagement.Domain.pdb
 D:\Freelance\ERP\ERP\ERP.DataBase\bin\Debug\net6.0\ERP.TaskManagement.Domain.pdb
+D:\Freelance\ERP\ERP\ERP.DataBase\obj\Debug\net6.0\ERP.DataBase.sourcelink.json

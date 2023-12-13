@@ -31,3 +31,4 @@ D:\Freelance\ERP\ERP\Server\Repositories\ERP.Notifications.Repository\obj\Debug\
 D:\Freelance\ERP\ERP\Server\Repositories\ERP.Notifications.Repository\obj\Debug\net6.0\refint\ERP.Notifications.Repository.dll
 D:\Freelance\ERP\ERP\Server\Repositories\ERP.Notifications.Repository\obj\Debug\net6.0\ERP.Notifications.Repository.pdb
 D:\Freelance\ERP\ERP\Server\Repositories\ERP.Notifications.Repository\obj\Debug\net6.0\ref\ERP.Notifications.Repository.dll
+D:\Freelance\ERP\ERP\Server\Repositories\ERP.Notifications.Repository\obj\Debug\net6.0\ERP.Notifications.Repository.sourcelink.json

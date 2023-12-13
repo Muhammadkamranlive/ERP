@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAcAZ3pltBYkypeEiSOTlCBgAAAAACAAAAAAAQZgAAAAEAACAAAAB4DLr6GvnPmcbj2o2oMtgHUjXTG7TEdMsPAntxayOgJAAAAAAOgAAAAAIAACAAAADeBUHLdX+DLaUEK1dFMNmhRIAvpIgdAs5hjn1a9kroHYAAAACdMPcv5gKXEs9zyLhpllZrdXaGGghoEnSQtqHrBRavcSTLv0xcVWvUH6ROAlebnkUgbSVa/ADOpw/EEMTLh+qe+0bJPVcJlEq9jYJznHb6oquPkXmtb7fE4sJQKZx3PxcPVOY7W0rir98Kr+HtLfsk/SH0lxMZprOBNc5qBfFZ9EAAAADNcQ7OOnlN5A7rWV1eCeDa7R9ge6XZZ/99ecaiWWjCXuNdFw51hqGjG63rzNJJDQ2kIEh9Nol/MGUXOFhPbBJv</EncryptedPassword>
+    <History>True|2023-12-06T19:38:53.4535028Z;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <EFMigrations Include="ERP.DataBase.ERPDb">
+      <Value>Data Source=sapientmedical.database.windows.net,1433%3bInitial Catalog=CandidateCRM_db%3bUser ID=Adminsapientmedical%3bPassword=18-Ntu-1130</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

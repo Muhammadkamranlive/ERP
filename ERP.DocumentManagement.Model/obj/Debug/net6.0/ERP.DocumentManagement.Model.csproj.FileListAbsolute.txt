@@ -9,3 +9,4 @@ D:\Freelance\ERP\ERP\ERP.DocumentManagement.Model\obj\Debug\net6.0\ERP.DocumentM
 D:\Freelance\ERP\ERP\ERP.DocumentManagement.Model\obj\Debug\net6.0\refint\ERP.DocumentManagement.Model.dll
 D:\Freelance\ERP\ERP\ERP.DocumentManagement.Model\obj\Debug\net6.0\ERP.DocumentManagement.Model.pdb
 D:\Freelance\ERP\ERP\ERP.DocumentManagement.Model\obj\Debug\net6.0\ref\ERP.DocumentManagement.Model.dll
+D:\Freelance\ERP\ERP\ERP.DocumentManagement.Model\obj\Debug\net6.0\ERP.DocumentManagement.Model.sourcelink.json

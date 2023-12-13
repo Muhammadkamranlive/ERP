@@ -31,3 +31,4 @@ D:\Freelance\ERP\ERP\Server\Repositories\ERP.ContactManagement.Repository\obj\De
 D:\Freelance\ERP\ERP\Server\Repositories\ERP.ContactManagement.Repository\obj\Debug\net6.0\refint\ERP.ContactManagement.Repository.dll
 D:\Freelance\ERP\ERP\Server\Repositories\ERP.ContactManagement.Repository\obj\Debug\net6.0\ERP.ContactManagement.Repository.pdb
 D:\Freelance\ERP\ERP\Server\Repositories\ERP.ContactManagement.Repository\obj\Debug\net6.0\ref\ERP.ContactManagement.Repository.dll
+D:\Freelance\ERP\ERP\Server\Repositories\ERP.ContactManagement.Repository\obj\Debug\net6.0\ERP.ContactManagement.Repository.sourcelink.json

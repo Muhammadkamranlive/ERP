@@ -41,3 +41,4 @@ D:\Freelance\ERP\ERP\ERP.Candidate.CRM.Mapper\bin\Debug\net6.0\ERP.TaskManagemen
 D:\Freelance\ERP\ERP\ERP.Candidate.CRM.Mapper\bin\Debug\net6.0\ERP.TaskManagement.Model.pdb
 D:\Freelance\ERP\ERP\ERP.Candidate.CRM.Mapper\bin\Debug\net6.0\ERP.Authentication.Domain.pdb
 D:\Freelance\ERP\ERP\ERP.Candidate.CRM.Mapper\obj\Debug\net6.0\ERP.Candidate.CRM.Mapper.csproj.CopyComplete
+D:\Freelance\ERP\ERP\ERP.Candidate.CRM.Mapper\obj\Debug\net6.0\ERP.Candidate.CRM.Mapper.sourcelink.json

@@ -11,7 +11,7 @@ namespace ERP.TaskManagement.Domain
         public DateTime DueDate                { get; set; }
         public string   Type                   { get; set; }
         public string   UserId                 { get; set; }
-        public virtual  ApplicationUser User   { get; set; }
-    
+        public string   Progress               { get; set; }
+
     }
 }

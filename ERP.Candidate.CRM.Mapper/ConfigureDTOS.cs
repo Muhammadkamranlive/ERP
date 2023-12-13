@@ -34,7 +34,7 @@ namespace ERP.Candidate.CRM.Mapper
             CreateMap<CONTACTDETAILS, ContactDetailModel>().ReverseMap();
             CreateMap<EmergencyContacts, EmergencyContactModel>().ReverseMap();
             CreateMap<HRNotes, HRNoteModel>().ReverseMap();
-            CreateMap<Dependent, Dependent>().ReverseMap();
+            CreateMap<Dependent, DependentModel>().ReverseMap();
 
         }
     }

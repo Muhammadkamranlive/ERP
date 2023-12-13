@@ -11,7 +11,8 @@ namespace ERP.DocumentManagement.Domain
     {
         public Guid Id              { get; set; }
         public string userId        { get; set; }
-        public ApplicationUser User { get; set; }
+        public string DocType       { get; set; }
+        public string DocName       { get; set; }
         public string DocumentUrl   { get; set; }
     }
 }

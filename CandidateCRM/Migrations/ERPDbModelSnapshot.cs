@@ -189,6 +189,9 @@ namespace CandidateCRM.Migrations
                         .HasMaxLength(256)
                         .HasColumnType("nvarchar(256)");
 
+                    b.Property<string>("image")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<bool?>("personal")
                         .HasColumnType("bit");
 
@@ -360,18 +363,24 @@ namespace CandidateCRM.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
+                    b.Property<string>("DocName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("DocType")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("DocumentUrl")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("userId")
                         .IsRequired()
-                        .HasColumnType("nvarchar(450)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id")
                         .HasName("PK_ERP.DocumentManagement.Domain.Attachments_Id");
-
-                    b.HasIndex("userId");
 
                     b.ToTable("Attachments");
                 });
@@ -498,6 +507,40 @@ namespace CandidateCRM.Migrations
                     b.ToTable("CandidateInfos");
                 });
 
+            modelBuilder.Entity("ERP.ProfileManagement.Domain.Dependent", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime>("DateOfBirth")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("HasSpecialNeeds")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Notes")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Relationship")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("userId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id")
+                        .HasName("PK_ERP.ProfileManagement.Domain.Dependent_Id");
+
+                    b.ToTable("Dependents");
+                });
+
             modelBuilder.Entity("ERP.ProfileManagement.Domain.Education", b =>
                 {
                     b.Property<Guid>("Id")
@@ -516,11 +559,9 @@ namespace CandidateCRM.Migrations
                         .HasColumnType("float");
 
                     b.Property<string>("Interests")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Notes")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("SchoolName")
@@ -550,7 +591,6 @@ namespace CandidateCRM.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("JobDescription")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("JobTitle")
@@ -566,7 +606,6 @@ namespace CandidateCRM.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ReasonForLeaving")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Status")
@@ -769,6 +808,10 @@ namespace CandidateCRM.Migrations
                     b.Property<DateTime>("DueDate")
                         .HasColumnType("datetime2");
 
+                    b.Property<string>("Progress")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<DateTime>("StartDate")
                         .HasColumnType("datetime2");
 
@@ -782,12 +825,10 @@ namespace CandidateCRM.Migrations
 
                     b.Property<string>("UserId")
                         .IsRequired()
-                        .HasColumnType("nvarchar(450)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id")
                         .HasName("PK_ERP.TaskManagement.Domain.GENERALTASK_Id");
-
-                    b.HasIndex("UserId");
 
                     b.ToTable("GENERALTASKs");
                 });
@@ -978,28 +1019,6 @@ namespace CandidateCRM.Migrations
                     b.HasOne("ERP.Authentication.Domain.ApplicationUser", "User")
                         .WithMany()
                         .HasForeignKey("userId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("User");
-                });
-
-            modelBuilder.Entity("ERP.DocumentManagement.Domain.Attachments", b =>
-                {
-                    b.HasOne("ERP.Authentication.Domain.ApplicationUser", "User")
-                        .WithMany()
-                        .HasForeignKey("userId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("User");
-                });
-
-            modelBuilder.Entity("ERP.TaskManagement.Domain.GENERALTASK", b =>
-                {
-                    b.HasOne("ERP.Authentication.Domain.ApplicationUser", "User")
-                        .WithMany()
-                        .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 

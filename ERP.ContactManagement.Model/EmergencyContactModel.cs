@@ -3,7 +3,7 @@ namespace ERP.ContactManagement.Model
 {
     public class EmergencyContactModel
     {
-        public Guid Id              { get; set; }
+        public Guid Id              { get; set; }= Guid.NewGuid();
         public string Name          { get; set; }
         public string Relationship  { get; set; }
         public string Phone         { get; set; }

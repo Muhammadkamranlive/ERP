@@ -49,3 +49,4 @@ D:\Freelance\ERP\ERP\ERP.Core.ServiceAccess\bin\Debug\net6.0\ERP.ProfileManageme
 D:\Freelance\ERP\ERP\ERP.Core.ServiceAccess\bin\Debug\net6.0\ERP.ProfileManagement.Repository.pdb
 D:\Freelance\ERP\ERP\ERP.Core.ServiceAccess\bin\Debug\net6.0\ERP.TaskManagement.Domain.pdb
 D:\Freelance\ERP\ERP\ERP.Core.ServiceAccess\bin\Debug\net6.0\ERP.TaskManagement.Repository.pdb
+D:\Freelance\ERP\ERP\ERP.Core.ServiceAccess\obj\Debug\net6.0\ERP.Core.ServiceAccess.sourcelink.json

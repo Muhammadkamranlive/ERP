@@ -31,3 +31,4 @@ D:\Freelance\ERP\ERP\ERP.ProfileManagement.Repository\obj\Debug\net6.0\ERP.Profi
 D:\Freelance\ERP\ERP\ERP.ProfileManagement.Repository\obj\Debug\net6.0\refint\ERP.ProfileManagement.Repository.dll
 D:\Freelance\ERP\ERP\ERP.ProfileManagement.Repository\obj\Debug\net6.0\ERP.ProfileManagement.Repository.pdb
 D:\Freelance\ERP\ERP\ERP.ProfileManagement.Repository\obj\Debug\net6.0\ref\ERP.ProfileManagement.Repository.dll
+D:\Freelance\ERP\ERP\ERP.ProfileManagement.Repository\obj\Debug\net6.0\ERP.ProfileManagement.Repository.sourcelink.json

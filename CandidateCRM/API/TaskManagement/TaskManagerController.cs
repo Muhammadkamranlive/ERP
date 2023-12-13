@@ -2,6 +2,7 @@
 using ERP.Common.Services;
 using CandidateCRM.Controllers;
 using Microsoft.AspNetCore.Mvc;
+using ERP.TaskManagement.Model;
 using ERP.TaskManagement.Domain;
 using ERP.CRM.TaskManagement.Service;
 
@@ -9,7 +10,7 @@ namespace CandidateCRM.API.TaskManagement
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class TaskManagerController : ParentController<GENERALTASK, GENERALTASK>
+    public class TaskManagerController : ParentController<GENERALTASK, GeneralTaskModel>
     {
         private readonly IGeneralTask_Service _Service;
         private readonly IAuthManager         _authManager;

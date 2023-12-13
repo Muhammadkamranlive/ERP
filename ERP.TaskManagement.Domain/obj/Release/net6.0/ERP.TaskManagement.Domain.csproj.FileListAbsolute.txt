@@ -1,0 +1,16 @@
+D:\Freelance\ERP\ERP\ERP.TaskManagement.Domain\bin\Release\net6.0\ERP.TaskManagement.Domain.deps.json
+D:\Freelance\ERP\ERP\ERP.TaskManagement.Domain\bin\Release\net6.0\ERP.TaskManagement.Domain.dll
+D:\Freelance\ERP\ERP\ERP.TaskManagement.Domain\bin\Release\net6.0\ERP.TaskManagement.Domain.pdb
+D:\Freelance\ERP\ERP\ERP.TaskManagement.Domain\bin\Release\net6.0\ERP.Authentication.Domain.dll
+D:\Freelance\ERP\ERP\ERP.TaskManagement.Domain\bin\Release\net6.0\ERP.Authentication.Domain.pdb
+D:\Freelance\ERP\ERP\ERP.TaskManagement.Domain\obj\Release\net6.0\ERP.TaskManagement.Domain.csproj.AssemblyReference.cache
+D:\Freelance\ERP\ERP\ERP.TaskManagement.Domain\obj\Release\net6.0\ERP.TaskManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Freelance\ERP\ERP\ERP.TaskManagement.Domain\obj\Release\net6.0\ERP.TaskManagement.Domain.AssemblyInfoInputs.cache
+D:\Freelance\ERP\ERP\ERP.TaskManagement.Domain\obj\Release\net6.0\ERP.TaskManagement.Domain.AssemblyInfo.cs
+D:\Freelance\ERP\ERP\ERP.TaskManagement.Domain\obj\Release\net6.0\ERP.TaskManagement.Domain.csproj.CoreCompileInputs.cache
+D:\Freelance\ERP\ERP\ERP.TaskManagement.Domain\obj\Release\net6.0\ERP.TaskManagement.Domain.sourcelink.json
+D:\Freelance\ERP\ERP\ERP.TaskManagement.Domain\obj\Release\net6.0\ERP.TaskManagement.Domain.csproj.CopyComplete
+D:\Freelance\ERP\ERP\ERP.TaskManagement.Domain\obj\Release\net6.0\ERP.TaskManagement.Domain.dll
+D:\Freelance\ERP\ERP\ERP.TaskManagement.Domain\obj\Release\net6.0\refint\ERP.TaskManagement.Domain.dll
+D:\Freelance\ERP\ERP\ERP.TaskManagement.Domain\obj\Release\net6.0\ERP.TaskManagement.Domain.pdb
+D:\Freelance\ERP\ERP\ERP.TaskManagement.Domain\obj\Release\net6.0\ref\ERP.TaskManagement.Domain.dll

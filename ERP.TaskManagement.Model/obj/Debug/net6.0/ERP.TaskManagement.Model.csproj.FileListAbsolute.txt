@@ -9,3 +9,4 @@ D:\Freelance\ERP\ERP\ERP.TaskManagement.Model\obj\Debug\net6.0\ERP.TaskManagemen
 D:\Freelance\ERP\ERP\ERP.TaskManagement.Model\obj\Debug\net6.0\refint\ERP.TaskManagement.Model.dll
 D:\Freelance\ERP\ERP\ERP.TaskManagement.Model\obj\Debug\net6.0\ERP.TaskManagement.Model.pdb
 D:\Freelance\ERP\ERP\ERP.TaskManagement.Model\obj\Debug\net6.0\ref\ERP.TaskManagement.Model.dll
+D:\Freelance\ERP\ERP\ERP.TaskManagement.Model\obj\Debug\net6.0\ERP.TaskManagement.Model.sourcelink.json

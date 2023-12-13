@@ -53,3 +53,10 @@ D:\Freelance\ERP\ERP\ERP.Common.Services\bin\Debug\net6.0\ERP.ProfileManagement.
 D:\Freelance\ERP\ERP\ERP.Common.Services\bin\Debug\net6.0\ERP.ProfileManagement.Repository.pdb
 D:\Freelance\ERP\ERP\ERP.Common.Services\bin\Debug\net6.0\ERP.TaskManagement.Domain.pdb
 D:\Freelance\ERP\ERP\ERP.Common.Services\bin\Debug\net6.0\ERP.TaskManagement.Repository.pdb
+D:\Freelance\ERP\ERP\ERP.Common.Services\obj\Debug\net6.0\ERP.Common.Services.sourcelink.json
+D:\Freelance\ERP\ERP\ERP.Common.Services\bin\Debug\net6.0\ERP.CRM.TaskManagement.Service.dll
+D:\Freelance\ERP\ERP\ERP.Common.Services\bin\Debug\net6.0\ERP.TaskManagement.Model.dll
+D:\Freelance\ERP\ERP\ERP.Common.Services\bin\Debug\net6.0\ERP.CRM.TaskManagement.Service.pdb
+D:\Freelance\ERP\ERP\ERP.Common.Services\bin\Debug\net6.0\ERP.TaskManagement.Model.pdb
+D:\Freelance\ERP\ERP\ERP.Common.Services\bin\Debug\net6.0\ERP.Notification.Service.dll
+D:\Freelance\ERP\ERP\ERP.Common.Services\bin\Debug\net6.0\ERP.Notification.Service.pdb

@@ -1,0 +1,12 @@
+D:\Freelance\ERP\ERP\ERP.TaskManagement.Model\bin\Release\net6.0\ERP.TaskManagement.Model.deps.json
+D:\Freelance\ERP\ERP\ERP.TaskManagement.Model\bin\Release\net6.0\ERP.TaskManagement.Model.dll
+D:\Freelance\ERP\ERP\ERP.TaskManagement.Model\bin\Release\net6.0\ERP.TaskManagement.Model.pdb
+D:\Freelance\ERP\ERP\ERP.TaskManagement.Model\obj\Release\net6.0\ERP.TaskManagement.Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\Freelance\ERP\ERP\ERP.TaskManagement.Model\obj\Release\net6.0\ERP.TaskManagement.Model.AssemblyInfoInputs.cache
+D:\Freelance\ERP\ERP\ERP.TaskManagement.Model\obj\Release\net6.0\ERP.TaskManagement.Model.AssemblyInfo.cs
+D:\Freelance\ERP\ERP\ERP.TaskManagement.Model\obj\Release\net6.0\ERP.TaskManagement.Model.csproj.CoreCompileInputs.cache
+D:\Freelance\ERP\ERP\ERP.TaskManagement.Model\obj\Release\net6.0\ERP.TaskManagement.Model.sourcelink.json
+D:\Freelance\ERP\ERP\ERP.TaskManagement.Model\obj\Release\net6.0\ERP.TaskManagement.Model.dll
+D:\Freelance\ERP\ERP\ERP.TaskManagement.Model\obj\Release\net6.0\refint\ERP.TaskManagement.Model.dll
+D:\Freelance\ERP\ERP\ERP.TaskManagement.Model\obj\Release\net6.0\ERP.TaskManagement.Model.pdb
+D:\Freelance\ERP\ERP\ERP.TaskManagement.Model\obj\Release\net6.0\ref\ERP.TaskManagement.Model.dll

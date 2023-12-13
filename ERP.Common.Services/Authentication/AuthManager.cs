@@ -3,9 +3,16 @@ using System.Text;
 using System.Text.Json;
 using System.Security.Claims;
 using CRM.Authentication.Model;
+using ERP.TaskManagement.Model;
+using ERP.Notifications.Domain;
+using ERP.Notification.Service;
 using ERP.Authentication.Domain;
+using ERP.TaskManagement.Domain;
+using ERP.Notifications.Repository;
 using Microsoft.AspNetCore.Identity;
+using System.Runtime.Intrinsics.X86;
 using Microsoft.IdentityModel.Tokens;
+using ERP.CRM.TaskManagement.Service;
 using System.IdentityModel.Tokens.Jwt;
 using Microsoft.Extensions.Configuration;
 
@@ -21,6 +28,8 @@ namespace ERP.Common.Services
         private readonly RoleManager<IdentityRole>    _roleManager;
         private readonly IEmail_Service               _emailService;
         private readonly IPasswordReset_Service       _passwordResetService;
+        private readonly IGeneralTask_Service         _generalTask_Service;
+        private readonly INotifications_Service       _notifications_Service;
         #endregion
 
         #region Constructor
@@ -31,16 +40,21 @@ namespace ERP.Common.Services
             IConfiguration configuration,
             RoleManager<IdentityRole> roleManager,
             IEmail_Service emailService,
-            IPasswordReset_Service passwordResetService
-           
+            IPasswordReset_Service passwordResetService,
+            IGeneralTask_Service generalTask_Service,
+            INotifications_Service notifications_Service
+
+
             )
         {
-            _mapper               = mapper;
-            _userManager          = userManager;
-            _configuration        = configuration;
-            _roleManager          = roleManager;
-            _emailService         = emailService;
-            _passwordResetService = passwordResetService;
+            _mapper                = mapper;
+            _userManager           = userManager;
+            _configuration         = configuration;
+            _roleManager           = roleManager;
+            _emailService          = emailService;
+            _passwordResetService  = passwordResetService;
+            _generalTask_Service   = generalTask_Service;
+            _notifications_Service = notifications_Service;
 
         }
 
@@ -59,18 +73,14 @@ namespace ERP.Common.Services
             {
                 return new AuthResponseModel { Message = "Invalid credentials." };
             }
-            
-
-            // Add more conditions for other roles if needed
-
             var token = await GenerateToken(user);
-
             return new AuthResponseModel
             {
                 Token       = token,
                 UserId      = user.Id,
                 EmailStatus = user.EmailConfirmed,
-                Message     = "Success"
+                Message     = "Success",
+
             };
         }
         public async Task<IEnumerable<IdentityError>> RegisterAdmin(RegisterUserModel adminDto)
@@ -92,7 +102,9 @@ namespace ERP.Common.Services
                     {
                         await _roleManager.CreateAsync(new IdentityRole("Administrator"));
                     }
+
                     await _userManager.AddToRoleAsync(admin, "Administrator");
+                   
                 }
 
                 return result.Errors;
@@ -114,7 +126,9 @@ namespace ERP.Common.Services
                 admin.MiddleName = adminDto.MiddleName;
                 admin.Email     = adminDto.Email; ;
                 admin.UserName  = adminDto.Email;
-               
+                admin.image     = "https://firebasestorage.googleapis.com/v0/b/images-107c9.appspot.com/o/deafut.jpg?alt=media&token=b9fac53e-2606-44b3-89c2-e4bc03479051";
+
+
                 var result = await _userManager.CreateAsync(admin, adminDto.Password);
                 if (result.Succeeded)
                 {
@@ -124,6 +138,104 @@ namespace ERP.Common.Services
                         await _roleManager.CreateAsync(new IdentityRole("Candidate"));
                     }
                     await _userManager.AddToRoleAsync(admin, "Candidate");
+                    var user = await _userManager.FindByNameAsync(admin.Email);
+
+                    if (user != null)
+                    {
+
+                        var tasks = new List<GENERALTASK>
+                        {
+                            new GENERALTASK
+                            {
+                                Id          = Guid.NewGuid(),
+                                Title       = "Personal Information",
+                                Description = "Please Add Your Personal Information ",
+                                StartDate   = DateTime.Now,
+                                DueDate     = DateTime.Now.AddDays(7),
+                                Type        = "Task",
+                                Progress    = "Pending",
+                                UserId      = user.Id
+                            },
+                            new GENERALTASK
+                            {
+                                Id          = Guid.NewGuid(),
+                                Title       = "Emergency Contacts Information",
+                                Description = "Please Add Your Emergency Contacts Information ",
+                                StartDate   = DateTime.Now,
+                                DueDate     = DateTime.Now.AddDays(7),
+                                Type        = "Task",
+                                Progress    = "Pending",
+                                UserId      = user.Id
+                            },
+                            new GENERALTASK
+                            {
+                                Id          = Guid.NewGuid(),
+                                Title       = "Dependents Information",
+                                Description = "Please Add Your Dependents Information ",
+                                StartDate   = DateTime.Now,
+                                DueDate     = DateTime.Now.AddDays(7),
+                                Type        = "Task",
+                                Progress    = "Pending",
+                                UserId      = user.Id
+                            },
+                            new GENERALTASK
+                            {
+                                Id          = Guid.NewGuid(),
+                                Title       = "Education Information",
+                                Description = "Please Add Your Education Information ",
+                                StartDate   = DateTime.Now,
+                                DueDate     = DateTime.Now.AddDays(7),
+                                Type        = "Task",
+                                Progress    = "Pending",
+                                UserId      = user.Id
+                            },
+                            new GENERALTASK
+                            {
+                                Id          = Guid.NewGuid(),
+                                Title       = "Professional License Information",
+                                Description = "Please Add Your Professional License Information ",
+                                StartDate   = DateTime.Now,
+                                DueDate     = DateTime.Now.AddDays(7),
+                                Type        = "Task",
+                                Progress    = "Pending",
+                                UserId      = user.Id
+                            },
+                            new GENERALTASK
+                            {
+                                Id          = Guid.NewGuid(),
+                                Title       = "Job Experience Information",
+                                Description = "Please Add Your Job History  ",
+                                StartDate   = DateTime.Now,
+                                DueDate     = DateTime.Now.AddDays(7),
+                                Type        = "Task",
+                                Progress    = "Pending",
+                                UserId      = user.Id
+                            },
+                            new GENERALTASK
+                            {
+                                Id          = Guid.NewGuid(),
+                                Title       = "Certifications Information",
+                                Description = "Please Add Your Certifications Information ",
+                                StartDate   = DateTime.Now,
+                                DueDate     = DateTime.Now.AddDays(7),
+                                Type        = "Task",
+                                Progress    = "Pending",
+                                UserId      = user.Id
+                            },
+                        };
+
+                        await _generalTask_Service.AddRange(tasks);
+                        await _generalTask_Service.CompleteAync();
+                        var notification          = new NOTIFICATIONS();
+                        notification.IsRead       = false;
+                        notification.Message      = "Your Account Created Successfully";
+                        notification.UserId       = user.Id;
+                        notification.WorkflowStep = "Registration";
+                        notification.Timestamp = DateTime.Now;
+                        await _notifications_Service.InsertAsync(notification);
+                        await _notifications_Service.CompleteAync();
+                    }
+
                 }
 
                 return result.Errors;
@@ -210,16 +322,28 @@ namespace ERP.Common.Services
         {
             try
             {
-                ApplicationUser user1 = (ApplicationUser)await _userManager.FindByEmailAsync(user.Email);
+                ApplicationUser user1 = await _userManager.FindByEmailAsync(user.Email);
                 if (user1 == null)
                 {
                     var message = "No User Found Against Email " + user.Email;
                     return JsonSerializer.Serialize(message);
                 }
-                
+
+                user1.FirstName  = user.FirstName;
+                user1.LastName   = user.LastName;
+                user1.MiddleName = user.MiddleName;
+                user1.image      = user.Image;
                 var result = await _userManager.UpdateAsync(user1);
                 if (result.Succeeded == true)
                 {
+                    var notification = new NOTIFICATIONS();
+                    notification.IsRead = false;
+                    notification.Message = "Your Account Detail Updated Successfully";
+                    notification.UserId = user1.Id;
+                    notification.Timestamp = DateTime.Now;
+                    notification.WorkflowStep = "Account Setting";
+                    await _notifications_Service.InsertAsync(notification);
+                    await _notifications_Service.CompleteAync();
                     var message       = "User neccessary Details Updated Successfully";
                     return JsonSerializer.Serialize(message);
                 }
@@ -243,6 +367,14 @@ namespace ERP.Common.Services
                 var result = await _userManager.ResetPasswordAsync(user, token, password);
                 if (result.Succeeded)
                 {
+                    var notification = new NOTIFICATIONS();
+                    notification.IsRead = false;
+                    notification.Message = "Your Password Detail Updated Successfully";
+                    notification.UserId = user.Id;
+                    notification.Timestamp = DateTime.Now;
+                    notification.WorkflowStep = "Password Update";
+                    await _notifications_Service.InsertAsync(notification);
+                    await _notifications_Service.CompleteAync();
                     return "OK Password updated successfully";
                 }
                 else
@@ -276,6 +408,14 @@ namespace ERP.Common.Services
                     if (res)
                     {
                         await _passwordResetService.CompleteAync();
+                        var notification = new NOTIFICATIONS();
+                        notification.IsRead = false;
+                        notification.Message = "Your Emai Confirmed Successfully";
+                        notification.UserId = user.Id;
+                        notification.Timestamp = DateTime.Now;
+                        notification.WorkflowStep = "Email Confirmation";
+                        await _notifications_Service.InsertAsync(notification);
+                        await _notifications_Service.CompleteAync();
                         return "Your Email Confirmed Successfully";
                     }
 
@@ -321,6 +461,14 @@ namespace ERP.Common.Services
 
                 string emailMessage = $"\r\n\r\n\n<h1>{salutation}</h1>\r\n\r\n\n\n\n{messageBody}";
                 await _emailService.SendEmailAsync(user.Email, subject, emailMessage, true);
+                var notification = new NOTIFICATIONS();
+                notification.IsRead = false;
+                notification.Message = "Email Cnfirmation sent Successfully";
+                notification.UserId = user.Id;
+                notification.Timestamp = DateTime.Now;
+                notification.WorkflowStep = "Email Confirmation";
+                await _notifications_Service.InsertAsync(notification);
+                await _notifications_Service.CompleteAync();
                 return "Email has been sent to You for Verification";
             }
             catch (Exception ex)
@@ -394,6 +542,7 @@ namespace ERP.Common.Services
               new Claim(JwtRegisteredClaimNames.Email, user.Email),
               new Claim("uid", user.Id),
               new Claim("EmailConfirmed", user.EmailConfirmed ? "true" : "false"),
+
             }
             .Union(userClaims)
             .Union(roleClaims);

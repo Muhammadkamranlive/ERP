@@ -10,3 +10,4 @@ D:\Freelance\ERP\ERP\ERP.Middlewares\obj\Debug\net6.0\ERP.Middlewares.dll
 D:\Freelance\ERP\ERP\ERP.Middlewares\obj\Debug\net6.0\refint\ERP.Middlewares.dll
 D:\Freelance\ERP\ERP\ERP.Middlewares\obj\Debug\net6.0\ERP.Middlewares.pdb
 D:\Freelance\ERP\ERP\ERP.Middlewares\obj\Debug\net6.0\ref\ERP.Middlewares.dll
+D:\Freelance\ERP\ERP\ERP.Middlewares\obj\Debug\net6.0\ERP.Middlewares.sourcelink.json

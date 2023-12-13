@@ -31,3 +31,4 @@ D:\Freelance\ERP\ERP\ERP.Core.BusinessAccess\bin\Debug\net6.0\ERP.HRAdminStaff.D
 D:\Freelance\ERP\ERP\ERP.Core.BusinessAccess\bin\Debug\net6.0\ERP.Notifications.Domain.pdb
 D:\Freelance\ERP\ERP\ERP.Core.BusinessAccess\bin\Debug\net6.0\ERP.ProfileManagement.Domain.pdb
 D:\Freelance\ERP\ERP\ERP.Core.BusinessAccess\bin\Debug\net6.0\ERP.TaskManagement.Domain.pdb
+D:\Freelance\ERP\ERP\ERP.Core.BusinessAccess\obj\Debug\net6.0\ERP.Core.BusinessAccess.sourcelink.json

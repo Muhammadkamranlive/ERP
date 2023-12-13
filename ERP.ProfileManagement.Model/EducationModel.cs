@@ -15,7 +15,7 @@ namespace ERP.ProfileManagement.Model
         public string FieldOfStudy    { get; set; }
         public int YearOfCompletion   { get; set; }
         public double GPA             { get; set; }
-        public string Interests       { get; set; }
-        public string Notes           { get; set; }
+        public string? Interests       { get; set; }
+        public string? Notes           { get; set; }
     }
 }

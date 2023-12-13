@@ -38,9 +38,17 @@ namespace CandidateCRM.API.Authentication
 
         }
 
-       
 
-        
+        [HttpPut]
+        [Route("UpdateProfile")]
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "Administrator,Candidate,HR")]
+        public async Task<ActionResult> UpdateProfile([FromBody] UpdateUserModel loginDto)
+        {
+            var authResponse = await authManager.UpdateUser(loginDto);
+
+            return Ok(authResponse);
+        }
+
         [HttpPost]
         [Route("register")]
         public async Task<ActionResult> Register([FromBody] RegisterUserModel apiUserDto)
@@ -80,7 +88,7 @@ namespace CandidateCRM.API.Authentication
         [HttpGet]
         [Route("getById")]
 
-        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "Administrator,Student,Teacher")]
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "Administrator,Candidate,HR,HRStaff")]
         public async Task<ActionResult> getById(string uid)
         {
             try

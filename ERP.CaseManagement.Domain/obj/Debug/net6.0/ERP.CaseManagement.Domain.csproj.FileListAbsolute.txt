@@ -13,3 +13,4 @@ D:\Freelance\ERP\ERP\ERP.CaseManagement.Domain\obj\Debug\net6.0\ERP.CaseManageme
 D:\Freelance\ERP\ERP\ERP.CaseManagement.Domain\obj\Debug\net6.0\refint\ERP.CaseManagement.Domain.dll
 D:\Freelance\ERP\ERP\ERP.CaseManagement.Domain\obj\Debug\net6.0\ERP.CaseManagement.Domain.pdb
 D:\Freelance\ERP\ERP\ERP.CaseManagement.Domain\obj\Debug\net6.0\ref\ERP.CaseManagement.Domain.dll
+D:\Freelance\ERP\ERP\ERP.CaseManagement.Domain\obj\Debug\net6.0\ERP.CaseManagement.Domain.sourcelink.json

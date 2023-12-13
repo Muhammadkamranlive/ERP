@@ -9,3 +9,4 @@ D:\Freelance\ERP\ERP\ERP.ContactManagement.Model\obj\Debug\net6.0\ERP.ContactMan
 D:\Freelance\ERP\ERP\ERP.ContactManagement.Model\obj\Debug\net6.0\refint\ERP.ContactManagement.Model.dll
 D:\Freelance\ERP\ERP\ERP.ContactManagement.Model\obj\Debug\net6.0\ERP.ContactManagement.Model.pdb
 D:\Freelance\ERP\ERP\ERP.ContactManagement.Model\obj\Debug\net6.0\ref\ERP.ContactManagement.Model.dll
+D:\Freelance\ERP\ERP\ERP.ContactManagement.Model\obj\Debug\net6.0\ERP.ContactManagement.Model.sourcelink.json

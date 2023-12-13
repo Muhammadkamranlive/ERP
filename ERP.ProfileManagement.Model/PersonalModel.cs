@@ -9,8 +9,7 @@ namespace ERP.ProfileManagement.Model
 {
     public class PersonalModel
     {
-        // Personal Information
-        public Guid Id                                { get; set; }
+        public Guid Id                                { get; set; }= Guid.NewGuid();
         public string UserId                          { get; set; }
         public string SSN                             { get; set; }
         public DateTime DOB                           { get; set; }
@@ -39,6 +38,7 @@ namespace ERP.ProfileManagement.Model
         // Additional Information
         public string BestTimeToContact               { get; set; }
         public string HowDidYouHearAboutUs            { get; set; }
+        
 
         // Professional Information
         public string Profession                       { get; set; }

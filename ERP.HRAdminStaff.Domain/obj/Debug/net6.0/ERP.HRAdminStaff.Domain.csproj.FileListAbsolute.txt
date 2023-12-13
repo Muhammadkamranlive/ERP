@@ -13,3 +13,4 @@ D:\Freelance\ERP\ERP\ERP.HRAdminStaff.Domain\obj\Debug\net6.0\ERP.HRAdminStaff.D
 D:\Freelance\ERP\ERP\ERP.HRAdminStaff.Domain\obj\Debug\net6.0\refint\ERP.HRAdminStaff.Domain.dll
 D:\Freelance\ERP\ERP\ERP.HRAdminStaff.Domain\obj\Debug\net6.0\ERP.HRAdminStaff.Domain.pdb
 D:\Freelance\ERP\ERP\ERP.HRAdminStaff.Domain\obj\Debug\net6.0\ref\ERP.HRAdminStaff.Domain.dll
+D:\Freelance\ERP\ERP\ERP.HRAdminStaff.Domain\obj\Debug\net6.0\ERP.HRAdminStaff.Domain.sourcelink.json

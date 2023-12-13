@@ -21,6 +21,9 @@
     <ProjectReference Include="..\ERP.Authentication.Domain\ERP.Authentication.Domain.csproj" />
     <ProjectReference Include="..\ERP.Core.DataAccess\ERP.Core.DataAccess.csproj" />
     <ProjectReference Include="..\ERP.Core.ServiceAccess\ERP.Core.ServiceAccess.csproj" />
+    <ProjectReference Include="..\ERP.CRM.TaskManagement.Service\ERP.CRM.TaskManagement.Service.csproj" />
+    <ProjectReference Include="..\ERP.Notification.Service\ERP.Notification.Service.csproj" />
+    <ProjectReference Include="..\ERP.TaskManagement.Model\ERP.TaskManagement.Model.csproj" />
   </ItemGroup>
 
 </Project>

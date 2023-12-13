@@ -31,3 +31,4 @@ D:\Freelance\ERP\ERP\CRM.Authentication.Repository\bin\Debug\net6.0\ERP.HRAdminS
 D:\Freelance\ERP\ERP\CRM.Authentication.Repository\bin\Debug\net6.0\ERP.Notifications.Domain.pdb
 D:\Freelance\ERP\ERP\CRM.Authentication.Repository\bin\Debug\net6.0\ERP.ProfileManagement.Domain.pdb
 D:\Freelance\ERP\ERP\CRM.Authentication.Repository\bin\Debug\net6.0\ERP.TaskManagement.Domain.pdb
+D:\Freelance\ERP\ERP\CRM.Authentication.Repository\obj\Debug\net6.0\CRM.Authentication.Repository.sourcelink.json

@@ -16,8 +16,8 @@ namespace ERP.ProfileManagement.Domain
         public string   Status                 { get; set; }
         public DateTime FromDate               { get; set; }
         public DateTime ToDate                 { get; set; }
-        public string   JobDescription         { get; set; }
-        public string   ReasonForLeaving       { get; set; }
+        public string?   JobDescription         { get; set; }
+        public string?   ReasonForLeaving       { get; set; }
     }
 
     

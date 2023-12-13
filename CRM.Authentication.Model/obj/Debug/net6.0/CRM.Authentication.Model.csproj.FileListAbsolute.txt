@@ -9,3 +9,4 @@ D:\Freelance\ERP\ERP\CRM.Authentication.Model\obj\Debug\net6.0\CRM.Authenticatio
 D:\Freelance\ERP\ERP\CRM.Authentication.Model\obj\Debug\net6.0\refint\CRM.Authentication.Model.dll
 D:\Freelance\ERP\ERP\CRM.Authentication.Model\obj\Debug\net6.0\CRM.Authentication.Model.pdb
 D:\Freelance\ERP\ERP\CRM.Authentication.Model\obj\Debug\net6.0\ref\CRM.Authentication.Model.dll
+D:\Freelance\ERP\ERP\CRM.Authentication.Model\obj\Debug\net6.0\CRM.Authentication.Model.sourcelink.json

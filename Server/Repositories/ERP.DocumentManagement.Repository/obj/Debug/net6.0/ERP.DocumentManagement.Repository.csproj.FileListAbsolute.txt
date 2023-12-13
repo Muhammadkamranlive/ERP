@@ -31,3 +31,4 @@ D:\Freelance\ERP\ERP\Server\Repositories\ERP.DocumentManagement.Repository\obj\D
 D:\Freelance\ERP\ERP\Server\Repositories\ERP.DocumentManagement.Repository\obj\Debug\net6.0\refint\ERP.DocumentManagement.Repository.dll
 D:\Freelance\ERP\ERP\Server\Repositories\ERP.DocumentManagement.Repository\obj\Debug\net6.0\ERP.DocumentManagement.Repository.pdb
 D:\Freelance\ERP\ERP\Server\Repositories\ERP.DocumentManagement.Repository\obj\Debug\net6.0\ref\ERP.DocumentManagement.Repository.dll
+D:\Freelance\ERP\ERP\Server\Repositories\ERP.DocumentManagement.Repository\obj\Debug\net6.0\ERP.DocumentManagement.Repository.sourcelink.json

@@ -1,6 +1,7 @@
 ﻿using ERP.Core.DataAccess;
 using System.Linq.Expressions;
 using ERP.Core.BusinessAccess;
+using Microsoft.EntityFrameworkCore;
 
 namespace ERP.Core.ServiceAccess
 {
@@ -30,16 +31,16 @@ namespace ERP.Core.ServiceAccess
 
         }
 
-        public async Task<IEnumerable<T>> Find(Expression<Func<T, bool>> predicate)
+        public async Task<IList<T>> Find(Expression<Func<T, bool>> predicate)
         {
-            var AllData = await _genericRepository.Find(predicate);
-            if (AllData.Count() != 0)
-            {
-                return AllData;
-            }
-            throw new Exception($"{typeof(T).Name} is not having any record Sorry...!");
+            return (IList<T>)await _genericRepository.Find(predicate);
+            
+            
         }
-
+        public async Task AddRange(IEnumerable<T> entities)
+        {
+            await _genericRepository.AddRange(entities);
+        }
         public async Task<T?> Get(Guid id)
         {
             var tempRecord = await _genericRepository.Get(id);

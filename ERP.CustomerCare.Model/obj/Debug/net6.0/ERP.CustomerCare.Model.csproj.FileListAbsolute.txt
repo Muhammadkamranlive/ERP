@@ -9,3 +9,4 @@ D:\Freelance\ERP\ERP\ERP.CustomerCare.Model\obj\Debug\net6.0\ERP.CustomerCare.Mo
 D:\Freelance\ERP\ERP\ERP.CustomerCare.Model\obj\Debug\net6.0\refint\ERP.CustomerCare.Model.dll
 D:\Freelance\ERP\ERP\ERP.CustomerCare.Model\obj\Debug\net6.0\ERP.CustomerCare.Model.pdb
 D:\Freelance\ERP\ERP\ERP.CustomerCare.Model\obj\Debug\net6.0\ref\ERP.CustomerCare.Model.dll
+D:\Freelance\ERP\ERP\ERP.CustomerCare.Model\obj\Debug\net6.0\ERP.CustomerCare.Model.sourcelink.json

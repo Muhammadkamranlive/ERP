@@ -101,13 +101,13 @@
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[6.0.19, )"
+              "version": "[6.0.20, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.19, )"
+              "version": "[6.0.20, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -574,6 +574,15 @@
               },
               "D:\\Freelance\\ERP\\ERP\\ERP.Core.ServiceAccess\\ERP.Core.ServiceAccess.csproj": {
                 "projectPath": "D:\\Freelance\\ERP\\ERP\\ERP.Core.ServiceAccess\\ERP.Core.ServiceAccess.csproj"
+              },
+              "D:\\Freelance\\ERP\\ERP\\ERP.CRM.TaskManagement.Service\\ERP.CRM.TaskManagement.Service.csproj": {
+                "projectPath": "D:\\Freelance\\ERP\\ERP\\ERP.CRM.TaskManagement.Service\\ERP.CRM.TaskManagement.Service.csproj"
+              },
+              "D:\\Freelance\\ERP\\ERP\\ERP.Notification.Service\\ERP.Notification.Service.csproj": {
+                "projectPath": "D:\\Freelance\\ERP\\ERP\\ERP.Notification.Service\\ERP.Notification.Service.csproj"
+              },
+              "D:\\Freelance\\ERP\\ERP\\ERP.TaskManagement.Model\\ERP.TaskManagement.Model.csproj": {
+                "projectPath": "D:\\Freelance\\ERP\\ERP\\ERP.TaskManagement.Model\\ERP.TaskManagement.Model.csproj"
               }
             }
           }

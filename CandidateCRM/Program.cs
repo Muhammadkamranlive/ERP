@@ -67,6 +67,7 @@ builder.Services.AddScoped<IHRNotes_Service, HRNotes_Service>();
 builder.Services.AddScoped<INotifications_Service, Notifications_Service>();
 builder.Services.AddScoped<ICandidate_Service, Candidate_Service>();
 builder.Services.AddScoped<IEducations_Service, Educations_Service>();
+builder.Services.AddScoped<IJobExperience_Repo, JobExperience_Repo>();
 builder.Services.AddScoped<IJobExperience_Service, JobExperience_Service>();
 builder.Services.AddScoped<IProfile_Service, Profile_Service>();
 builder.Services.AddScoped<IProfessionalLicense_Service, ProfessionalLicense_Service>();
@@ -123,7 +124,7 @@ builder.Services.AddCors(options =>
     options.AddDefaultPolicy(builder =>
     {
         builder
-            .WithOrigins("https://emtiyazlive.web.app", "http://localhost:4200")
+            .WithOrigins("https://sapientmedical.web.app", "http://localhost:4200")
             .AllowAnyMethod()
             .AllowAnyHeader();
     });

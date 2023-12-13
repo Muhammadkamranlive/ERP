@@ -31,3 +31,4 @@ D:\Freelance\ERP\ERP\ERP.TaskManagement.Repository\obj\Debug\net6.0\ERP.TaskMana
 D:\Freelance\ERP\ERP\ERP.TaskManagement.Repository\obj\Debug\net6.0\refint\ERP.TaskManagement.Repository.dll
 D:\Freelance\ERP\ERP\ERP.TaskManagement.Repository\obj\Debug\net6.0\ERP.TaskManagement.Repository.pdb
 D:\Freelance\ERP\ERP\ERP.TaskManagement.Repository\obj\Debug\net6.0\ref\ERP.TaskManagement.Repository.dll
+D:\Freelance\ERP\ERP\ERP.TaskManagement.Repository\obj\Debug\net6.0\ERP.TaskManagement.Repository.sourcelink.json

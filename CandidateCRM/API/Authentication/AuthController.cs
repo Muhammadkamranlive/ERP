@@ -70,6 +70,28 @@ namespace CandidateCRM.API.Authentication
         }
 
         [HttpPost]
+        [Route("RegisterAdmin")]
+        public async Task<ActionResult> RegisterAdmin([FromBody] RegisterUserModel apiUserDto)
+        {
+            IList<IdentityError> errors = (IList<IdentityError>)await authManager.RegisterAdmin(apiUserDto);
+            if (errors.Any())
+            {
+                foreach (var error in errors)
+                {
+                    ModelState.AddModelError(error.Code, error.Description);
+                }
+                return BadRequest(errors.Select(x => x.Description).FirstOrDefault());
+            }
+            var successResponse = new SuccessResponse
+            {
+                Message = "User Registered Successfully"
+            };
+            return Ok(successResponse);
+        }
+
+
+
+        [HttpPost]
         [Route("login")]
         public async Task<ActionResult> Login([FromBody] UserLoginModel loginDto)
         {
@@ -273,6 +295,102 @@ namespace CandidateCRM.API.Authentication
 
             return otp;
         }
+
+
+
+
+
+
+
+
+        [HttpGet]
+        [Route("GetAllRoles")]
+        public async Task<ActionResult<IEnumerable<string>>> GetAllRoles()
+        {
+            try
+            {
+                var roles = await authManager.GetAllRoles();
+                return Ok(roles);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Internal server error: {ex.Message}");
+            }
+        }
+
+        [HttpPost]
+        [Route("AddRoles")]
+        public async Task<ActionResult> CreateRole([FromBody] string roleName)
+        {
+            try
+            {
+                var errors = await authManager.CreateRole(roleName);
+                if (errors != null && errors.Any())
+                {
+                    return BadRequest(errors);
+                }
+
+                return Ok($"Role '{roleName}' created successfully.");
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Internal server error: {ex.Message}");
+            }
+        }
+
+        [HttpPut]
+        [Route("UpdateRole")]
+        public async Task<ActionResult> UpdateRole(string userId, string newRoleName)
+        {
+            try
+            {
+                var errors = await authManager.UpdateUserRole(userId, newRoleName);
+                if (errors != null && errors.Any())
+                {
+                    return BadRequest(errors);
+                }
+
+                return Ok($"Role '{User}' updated to '{newRoleName}' successfully.");
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Internal server error: {ex.Message}");
+            }
+        }
+
+        [HttpDelete]
+        [Route("deleteRole")]
+        public async Task<ActionResult> DeleteRole(string roleName)
+        {
+            try
+            {
+                var errors = await authManager.DeleteRole(roleName);
+                if (errors != null && errors.Any())
+                {
+                    return BadRequest(errors);
+                }
+
+                return Ok($"Role '{roleName}' deleted successfully.");
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Internal server error: {ex.Message}");
+            }
+        }
+
+
+
+        [HttpGet]
+        [Route("GetAllUser")]
+        //[Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = ("Administrator"))]
+        public async Task<IActionResult> GetAllUser()
+        {
+            var users = await authManager.GetAllUsers();
+
+            return Ok(users);
+        }
+
+
     }
 
 

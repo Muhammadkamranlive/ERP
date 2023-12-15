@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ERP.Core.ServiceAccess")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d2a4883ceb7ed1e6364fddba294215b1f61a56f0")]
 [assembly: System.Reflection.AssemblyProductAttribute("ERP.Core.ServiceAccess")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ERP.Core.ServiceAccess")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

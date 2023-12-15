@@ -31,6 +31,7 @@ namespace CandidateCRM.Migrations
                     FirstName = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     MiddleName = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     LastName = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    image = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     personal = table.Column<bool>(type: "bit", nullable: true),
                     EmergencyContact = table.Column<bool>(type: "bit", nullable: true),
                     Education = table.Column<bool>(type: "bit", nullable: true),
@@ -145,7 +146,8 @@ namespace CandidateCRM.Migrations
                     StartDate = table.Column<DateTime>(type: "datetime2", nullable: false),
                     DueDate = table.Column<DateTime>(type: "datetime2", nullable: false),
                     Type = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    UserId = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    UserId = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Progress = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -222,7 +224,6 @@ namespace CandidateCRM.Migrations
                 {
                     Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     UserId = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    SSN = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     DOB = table.Column<DateTime>(type: "datetime2", nullable: false),
                     Age = table.Column<int>(type: "int", nullable: false),
                     Gender = table.Column<string>(type: "nvarchar(max)", nullable: false),
@@ -240,10 +241,10 @@ namespace CandidateCRM.Migrations
                     City = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     State = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     ZipCode = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    birthcountry = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Country = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     BestTimeToContact = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     HowDidYouHearAboutUs = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Profession = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Specialty = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     TypeOfEmployment = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     YearsOfExperience = table.Column<int>(type: "int", nullable: false),

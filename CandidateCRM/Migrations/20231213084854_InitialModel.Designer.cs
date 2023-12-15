@@ -12,14 +12,14 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CandidateCRM.Migrations
 {
     [DbContext(typeof(ERPDb))]
-    [Migration("20231128180232_InitialModel4")]
-    partial class InitialModel4
+    [Migration("20231213084854_InitialModel")]
+    partial class InitialModel
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "6.0.19")
+                .HasAnnotation("ProductVersion", "6.0.20")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
@@ -714,15 +714,7 @@ namespace CandidateCRM.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Profession")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("Race")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("SSN")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -746,6 +738,10 @@ namespace CandidateCRM.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("ZipCode")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("birthcountry")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 

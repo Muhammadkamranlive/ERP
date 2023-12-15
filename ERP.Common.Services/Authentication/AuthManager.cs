@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using System.Text;
 using System.Text.Json;
+using System.Collections;
 using System.Security.Claims;
 using CRM.Authentication.Model;
 using ERP.TaskManagement.Model;
@@ -11,6 +12,7 @@ using ERP.TaskManagement.Domain;
 using ERP.Notifications.Repository;
 using Microsoft.AspNetCore.Identity;
 using System.Runtime.Intrinsics.X86;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using ERP.CRM.TaskManagement.Service;
 using System.IdentityModel.Tokens.Jwt;
@@ -558,5 +560,99 @@ namespace ERP.Common.Services
             return new JwtSecurityTokenHandler().WriteToken(token);
         }
 
+        #region Role Management
+        public async Task<IEnumerable<IdentityError>> CreateRole(string roleName)
+        {
+            try
+            {
+                var roleExists = await _roleManager.RoleExistsAsync(roleName);
+                if (!roleExists)
+                {
+                    var result = await _roleManager.CreateAsync(new IdentityRole(roleName));
+                    return result.Errors;
+                }
+
+                return new List<IdentityError> { new IdentityError { Description = "Role already exists." } };
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message + ex.InnerException?.Message);
+            }
+        }
+        public async Task<IEnumerable<IdentityError>> UpdateUserRole(string userId, string newRole)
+        {
+            try
+            {
+                var user = await _userManager.FindByIdAsync(userId);
+                if (user != null)
+                {
+                    // Remove existing roles
+                    var existingRoles = await _userManager.GetRolesAsync(user);
+                    await _userManager.RemoveFromRolesAsync(user, existingRoles);
+
+                    // Add the new role
+                    await _userManager.AddToRoleAsync(user, newRole);
+
+                    return null; // Success
+                }
+
+                return new List<IdentityError> { new IdentityError { Description = "User not found." } };
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message + ex.InnerException?.Message);
+            }
+        }
+        public async Task<IEnumerable<IdentityError>> DeleteRole(string roleName)
+        {
+            try
+            {
+                var role = await _roleManager.FindByNameAsync(roleName);
+                if (role != null)
+                {
+                    var result = await _roleManager.DeleteAsync(role);
+                    return result.Errors;
+                }
+
+                return new List<IdentityError> { new IdentityError { Description = "Role not found." } };
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message + ex.InnerException?.Message);
+            }
+        }
+        public async Task<IEnumerable<string>> GetAllRoles()
+        {
+            try
+            {
+                var roles = await _roleManager.Roles.Select(r => r.Name).ToListAsync();
+                return roles;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message + ex.InnerException?.Message);
+            }
+        }
+
+        public async Task<IEnumerable> GetAllUsers()
+        {
+            try
+            {
+                var users = _userManager.Users.ToList();
+                var Students = users.Where(u => !_userManager.IsInRoleAsync(u, "Administrator").Result).ToList();
+
+                return Students;
+
+            }
+            catch (Exception ex)
+            {
+
+                return ex.Message + ex.InnerException?.Message;
+            }
+        }
+        #endregion
     }
+
+
+
 }

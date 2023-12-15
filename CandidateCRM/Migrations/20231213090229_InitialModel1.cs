@@ -8,19 +8,19 @@ namespace CandidateCRM.Migrations
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.AddColumn<string>(
-                name: "Progress",
-                table: "GENERALTASKs",
-                type: "nvarchar(max)",
-                nullable: false,
-                defaultValue: "");
+            migrationBuilder.DropColumn(
+                name: "BusinessPhone",
+                table: "Personals");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.DropColumn(
-                name: "Progress",
-                table: "GENERALTASKs");
+            migrationBuilder.AddColumn<string>(
+                name: "BusinessPhone",
+                table: "Personals",
+                type: "nvarchar(max)",
+                nullable: false,
+                defaultValue: "");
         }
     }
 }

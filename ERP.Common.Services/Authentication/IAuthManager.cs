@@ -24,6 +24,11 @@ namespace ERP.Common.Services
         Task<dynamic> ComfirmEmail(string email, string otp);
         Task<dynamic> SendComfirmEmail(string email);
         Task<dynamic> VerifyOTP(string email, string otp);
+        Task<IEnumerable<IdentityError>> CreateRole(string roleName);
+        Task<IEnumerable<IdentityError>> UpdateUserRole(string userId, string newRole);
+        Task<IEnumerable<IdentityError>> DeleteRole(string roleName);
+        Task<IEnumerable<string>> GetAllRoles();
+        Task<IEnumerable> GetAllUsers();
 
     }
 }

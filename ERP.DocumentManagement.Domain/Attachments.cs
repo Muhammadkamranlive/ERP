@@ -14,5 +14,9 @@ namespace ERP.DocumentManagement.Domain
         public string DocType       { get; set; }
         public string DocName       { get; set; }
         public string DocumentUrl   { get; set; }
+        public string? SenderId     { get; set; } 
+        public string? ReceiverId   { get; set; }  
+        public string? Status       { get; set; } 
+
     }
 }

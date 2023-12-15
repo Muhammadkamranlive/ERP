@@ -10,8 +10,8 @@ namespace ERP.ProfileManagement.Model
     public class PersonalModel
     {
         public Guid Id                                { get; set; }= Guid.NewGuid();
+         // Personal Information
         public string UserId                          { get; set; }
-        public string SSN                             { get; set; }
         public DateTime DOB                           { get; set; }
         public int Age                                { get; set; }
         public string Gender                          { get; set; }
@@ -26,13 +26,14 @@ namespace ERP.ProfileManagement.Model
         public string Carrier                         { get; set; }
         public string PersonalEmail                   { get; set; }
         public string BusinessEmail                   { get; set; }
-        public string BusinessPhone                   { get; set; }
+      
 
         // Address Information
         public string Address                         { get; set; }
         public string City                            { get; set; }
         public string State                           { get; set; }
         public string ZipCode                         { get; set; }
+        public string birthcountry                    { get; set; }
         public string Country                         { get; set; }
 
         // Additional Information
@@ -41,7 +42,7 @@ namespace ERP.ProfileManagement.Model
         
 
         // Professional Information
-        public string Profession                       { get; set; }
+       
         public string Specialty                        { get; set; }
         public string TypeOfEmployment                 { get; set; }
         public int YearsOfExperience                   { get; set; }
